@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import colours, insights, fabrics
+from app.routers import colours, insights, fabrics, users
 import os
 import json
 from pathlib import Path
@@ -122,3 +122,4 @@ def brand_colours(brand: str):
 app.include_router(colours.router)
 app.include_router(fabrics.router)
 app.include_router(insights.router)
+app.include_router(users.router)
