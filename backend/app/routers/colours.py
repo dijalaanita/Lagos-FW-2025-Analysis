@@ -13,9 +13,10 @@ def overall_colours():
 def get_brand_colours(brand_name: str):
     filename = f"{brand_name.lower()}_colours.json"
     data = load_data(filename)
+
     if not data:
         print(f"Warning: No data found for {filename}")
-    return {"brand_colours": data}
+    return data
 
 @router.get("/brand/{brand}/top5")
 def get_brand_top5_colours(brand: str):

@@ -77,7 +77,7 @@ def colour_overall():
         results.append({
             "colour": colour,
             "count": count,
-            "percentage": f"{round((count/total) * 100, 0)}%"
+            "percentage": round((count/total) * 100, 0)
         })
     
     results.sort(key=lambda x:x["count"], reverse=True)

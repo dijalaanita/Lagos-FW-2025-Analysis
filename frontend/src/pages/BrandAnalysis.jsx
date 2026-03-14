@@ -7,7 +7,7 @@ import ColourPalette from "../components/ColourPalette"
 
 export default function BrandAnalysis() {
 
-    const [data, setData] = useState({ brand_colours: [] });
+    const [data, setData] = useState([]);
     const [brand, setBrand] = useState("")
     const [brands, setBrands] = useState([])
     const [loading, setloading] = useState(true)
@@ -52,13 +52,13 @@ export default function BrandAnalysis() {
             <BrandSelector brands={brands} 
             onSelect={setBrand} />
 
-            {!loading && data?.brand_colours?.length > 0 ?(
-            <ColourCharts data={data.brand_colours} />
+            {!loading && data?.length > 0 ?(
+            <ColourCharts data={data} />
             ) : (
             <p>Loading chart data...</p>
             )}
 
-            <ColourPalette data={data.brand_colours}/>
+            <ColourPalette data={data}/>
             <Insights data={data} />
         </div>
     )

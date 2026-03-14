@@ -12,7 +12,7 @@ export default function Overview(){
 
         getOverviewColours()
         .then((response) => {
-            setData(response.data);
+            setData(response);
             setLoading(false);})
         .catch((error) => {
             console.error("failed to fetch colours", error);
