@@ -8,11 +8,11 @@ export default function Insights({ data }){
 
             <h3>Key Insights</h3>
             <p>
-                The dominant colour in this collection is <strong>{top.colour}</strong>
-                appearing in <strong>{
-                typeof top.percentage === 'string' 
-                    ? top.percentage 
-                    : `${(top.percentage || 0).toFixed(1)}%`}</strong> of the looks.
+                The dominant colour in this collection is 
+                <strong>{top.colour || top.colours}</strong>
+                {" "}appearing in 
+                <strong>{parseFloat(top.percentage || 0).toFixed(1)}%</strong> 
+                of the looks.
             </p>
 
         </div>

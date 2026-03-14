@@ -4,6 +4,7 @@ import ColourCharts from "../components/colourcharts"
 import BrandSelector from "../components/BrandSelector"
 import Insights from "../components/Insights"
 import ColourPalette from "../components/ColourPalette"
+import ImageGallery from "../components/imagegallery"
 
 export default function BrandAnalysis() {
 
@@ -11,7 +12,6 @@ export default function BrandAnalysis() {
     const [brand, setBrand] = useState("")
     const [brands, setBrands] = useState([])
     const [loading, setloading] = useState(true)
-    const [selectedBrand, setSelectedBrand] = useState("")
 
     useEffect(() => {
 
@@ -48,8 +48,10 @@ export default function BrandAnalysis() {
     
     return (
         <div style={{ padding: "20px" }}>
-            <h1>LAGOS FASHION WEEK F/W 2025 COLOUR ANALYSIS</h1>
+            <h1>{brand.replace(/_/g, ' ').toUpperCase()} LFW 2025 COLOUR ANALYSIS</h1>
 
+
+            <ImageGallery brandName={brand} />
             <BrandSelector brands={brands} 
             onSelect={setBrand} />
 

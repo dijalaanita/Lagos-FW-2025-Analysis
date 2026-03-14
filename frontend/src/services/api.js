@@ -18,3 +18,8 @@ export const getOverviewColours = async () => {
   const response = await API_BASE.get("/analysis/overview/colours")
   return response.data;
 }
+
+export const getBrandImages = async (brand) => {
+  const response = await API_BASE.get(`/brands/${brand}/images`)
+  return response.data;
+}

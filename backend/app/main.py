@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import colours, insights, fabrics
 import os
@@ -21,6 +22,30 @@ app.add_middleware(
 # read the brands from the runway directory
 BASE_RUNWAY = Path(__file__).resolve().parent.parent.parent
 RUNWAY = BASE_RUNWAY / "data" / "runway"
+
+app.mount("/images", StaticFiles(directory=str(RUNWAY)), name="images")
+@app.get("/brands/{brand_name}/images")
+def get_brand_images(brand_name: str):
+    try:
+        brand_dir = RUNWAY / brand_name
+        
+        if not brand_dir.exists():
+            dirs = {d.lower(): d for d in os.listdir(RUNWAY) if os.path.isdir(os.path.join(RUNWAY, d))}
+            if brand_name.lower() in dirs:
+                brand_dir = RUNWAY / dirs[brand_name.lower()]
+            else:
+                return []
+        
+        images = []
+        for file in os.listdir(brand_dir):
+            if file.lower().endswith((".jpg", ".jpeg", ".png")):
+                images.append(f"/images/{brand_name}/{file}")
+        
+        return images
+    except Exception as e:
+        print(f"Error fetching images for brand {brand_name}: {e}")
+        return []
+
 
 @app.get("/brands")
 def get_brands():
