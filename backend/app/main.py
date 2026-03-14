@@ -79,6 +79,20 @@ def colour_overall():
     results.sort(key=lambda x:x["count"], reverse=True)
     return results
 
+@app.get("/analysis/brand/{brand}")
+def brand_colours(brand: str):
+
+    file_path = os.path.join(STATS, f"{brand}_colours.json")
+
+    if not os.path.exists(file_path):
+        return {"error": "Brand not found"}
+
+    with open(file_path) as f:
+        data = json.load(f)
+
+    data.sort(key=lambda x: x["count"], reverse=True)
+
+    return data
 
 app.include_router(colours.router)
 app.include_router(fabrics.router)

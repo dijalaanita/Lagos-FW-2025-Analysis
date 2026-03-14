@@ -11,6 +11,7 @@ export default function BrandAnalysis() {
     const [brand, setBrand] = useState("")
     const [brands, setBrands] = useState([])
     const [loading, setloading] = useState(true)
+    const [selectedBrand, setSelectedBrand] = useState("")
 
     useEffect(() => {
 
