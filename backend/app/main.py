@@ -52,17 +52,13 @@ def colour_overall():
                 continue
 
             for item in data:
-                if "colours" in item and isinstance(item["colours"], str):
-                    split_colours = [c.strip() for c in item["colours"].split(",")]
-                    for colour in split_colours:
-                        if colour:
-                            counts[colour] = counts.get(colour, 0) + 1
-                
+                if "colour" in item and isinstance(item["colour"], str):
+                    colour = item["colour"]
+                    counts[colour] = counts.get(colour, 0) + 1
+
                 elif "colours" in item and "count" in item:
                     colour = item["colours"]
                     counts[colour] = counts.get(colour, 0) + item["count"]
-                else:
-                    print(f"⚠️ Skipping invalid item in {file}: {item}")
         except Exception as e:
             print(f"cant process file {file}: {e}")
             continue
