@@ -11,7 +11,7 @@ export default function Insights({ data }){
                 The dominant colour in this collection is 
                 <strong>{top.colour || top.colours}</strong>
                 {" "}appearing in 
-                <strong>{parseFloat(top.percentage || 0).toFixed(1)}%</strong> 
+                <strong>{parseFloat(top.percentage || 0).toFixed(0)}%</strong> 
                 of the looks.
             </p>
 

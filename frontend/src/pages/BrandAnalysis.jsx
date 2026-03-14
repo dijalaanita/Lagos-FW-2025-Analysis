@@ -5,6 +5,7 @@ import BrandSelector from "../components/BrandSelector"
 import Insights from "../components/Insights"
 import ColourPalette from "../components/ColourPalette"
 import ImageGallery from "../components/imagegallery"
+import Top5 from "../components/top5"
 
 export default function BrandAnalysis() {
 
@@ -63,6 +64,7 @@ export default function BrandAnalysis() {
 
             <ColourPalette data={data}/>
             <Insights data={data} />
+            <Top5 data={data}/>
         </div>
     )
 };

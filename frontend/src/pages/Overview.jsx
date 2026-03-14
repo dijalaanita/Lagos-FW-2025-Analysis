@@ -3,6 +3,7 @@ import { getOverviewColours } from "../services/api"
 import ColourCharts from "../components/colourcharts"
 import Insights from "../components/Insights"
 import ColourPalette from "../components/ColourPalette";
+import Top5 from "../components/top5"
 
 export default function Overview(){
     const [data, setData] = useState([]);
@@ -33,6 +34,7 @@ export default function Overview(){
             )}
             <ColourPalette data={data}/>
             <Insights data={data}/>
+            <Top5 data={data}/>
             </div>
     )
 }
