@@ -48,13 +48,11 @@ export default function BrandAnalysis() {
     console.log("Current Data State:", data);
     
     return (
-        <div style={{ padding: "20px" }}>
-            <h1>{brand.replace(/_/g, ' ').toUpperCase()} LFW 2025 COLOUR ANALYSIS</h1>
-
-
-            <ImageGallery brandName={brand} />
+        <div>
+            <h1 style={{ fontSize: "40px", textAlign: "center"}}>{brand.replace(/_/g, ' ').toUpperCase()} LFW 2025 COLOUR ANALYSIS</h1>
             <BrandSelector brands={brands} 
             onSelect={setBrand} />
+            <ImageGallery brandName={brand} />
 
             {!loading && data?.length > 0 ?(
             <ColourCharts data={data} />

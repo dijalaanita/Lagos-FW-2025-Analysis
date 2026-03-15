@@ -20,7 +20,7 @@ export default function ColourPalette({ data }) {
     return (
         <div style={{ marginTop: "20px" }}>
 
-            <h3>Colour Palette</h3>
+            <h3 style={{ textAlign: "center", fontSize:"30px"}}>Colour Palette</h3>
 
             <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
 
@@ -42,14 +42,18 @@ export default function ColourPalette({ data }) {
                                     width: "60px",
                                     height: "60px",
                                     background: colourDisplay,
-                                    border: "1px solid #ccc"
-                                }}
+                                    border: "1px solid #ccc",
+                                    borderRadius: "8px"                                }}
                             />
 
-                            <small style={{ display: "block", marginTop: "5px", fontSize: "12px" }}>
+                            <small style={{ display: "block", marginTop: "5px" }}>
                                 {raw}
                                 {item.percentage && (
-                                    <span style={{ display:"block", fontWeight:"bold" }}>
+                                    <span style={{ 
+                                        display:"block", 
+                                        fontWeight:"bold", 
+                                        fontSize: "12px", 
+                                        textAlign:"center" }}>
                                         {typeof item.percentage === 'string' 
                                             ? item.percentage 
                                             : `${Math.round(item.percentage)}%`

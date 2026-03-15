@@ -4,10 +4,9 @@ export default function NavBar(){
 
     return(
         <div style={{
-            padding: "15px",
+            padding: "20px",
             background: "#111",
             color: "white",
-            marginBottom: "30px",
             display: "flex",
             gap: "20px"
         }}>

@@ -1,4 +1,4 @@
-export default function Top5({ data }){
+export default function Top5Overall({ data }){
     if (!data || !Array.isArray(data) || data.length == 0) return null
 
     const top5 = data.slice(0,5);
@@ -15,7 +15,7 @@ export default function Top5({ data }){
                         </span>
                         {" - "}
                         <span style={{ color: "#555"}}>
-                            {(item.percentage || 0).toFixed(0)}% of the collection.
+                            {(item.percentage || 0).toFixed(0)}% of the entire fashion week.
                         </span>
                     </li>
                 ))}
