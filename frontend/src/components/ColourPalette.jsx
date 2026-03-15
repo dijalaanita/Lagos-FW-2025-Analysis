@@ -4,17 +4,17 @@ export default function ColourPalette({ data }) {
 
     const colourMap = {
         "Cream/Khaki/Beige": "#E8D8B8",
-        "Brown": "brown",
-        "Blue": "blue",
-        "Grey": "grey",
-        "White": "white",
-        "Pink": "pink",
-        "Black": "black",
-        "Red": "red",
-        "Orange": "orange",
-        "Purple": "purple",
-        "Yellow": "yellow",
-        "Green": "green"
+        "Brown": "#8B4513",
+        "Blue": "#4169E1",
+        "Grey": "#808080",
+        "White": "#F0F0F0",
+        "Pink": "#FFC0CB",
+        "Black": "#222222",
+        "Red": "#DC143C",
+        "Orange": "#FFA500",
+        "Purple": "#800080",
+        "Yellow": "#FFD700",
+        "Green": "#2E8B57"
     }
 
     return (
