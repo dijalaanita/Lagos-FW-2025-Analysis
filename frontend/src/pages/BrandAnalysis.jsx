@@ -44,25 +44,70 @@ export default function BrandAnalysis() {
     }, [brand])
 
     if (loading) return <p>Loading...</p>
-    // !loading && <p>No colours found here</p>
-    console.log("Current Data State:", data);
     
     return (
-        <div>
-            <h1 style={{ fontSize: "40px", textAlign: "center"}}>{brand.replace(/_/g, ' ').toUpperCase()} LFW 2025 COLOUR ANALYSIS</h1>
+        <div style={{ 
+            maxWidth: "1100px", 
+            margin: "0 auto", 
+            padding: "20px", 
+            fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            color: "#333"
+        }}>
+            <h1 style={{ 
+                fontSize: "2.5rem", 
+                textAlign: "center", 
+                letterSpacing: "4px", 
+                fontWeight: "300", 
+                marginBottom: "40px",
+                lineHeight: "1.4"
+            }}>
+                {brand.replace(/_/g, ' ').toUpperCase()}<br/>
+                <span style={{ 
+                    fontSize: "1rem", 
+                    fontWeight: "600", 
+                    color: "#999", 
+                    letterSpacing: "3px" }}>
+
+                    LFW 2025 COLOUR ANALYSIS
+                </span>
+            </h1>
+
             <BrandSelector brands={brands} 
             onSelect={setBrand} />
+
             <ImageGallery brandName={brand} />
 
-            {!loading && data?.length > 0 ?(
-            <ColourCharts data={data} />
-            ) : (
-            <p>Loading chart data...</p>
-            )}
+            <div style={{ 
+                backgroundColor: "#fafafa", 
+                borderRadius: "20px", 
+                padding: "30px", 
+                marginTop: "20px" }}>
 
-            <ColourPalette data={data}/>
-            <Insights data={data} />
-            <Top5 data={data}/>
-        </div>
+                    {!loading && data?.length > 0 ?
+                    ( <ColourCharts data={data} />) : 
+                    ( <p>Loading chart data...</p>)
+                    }
+
+                    <div style={{ 
+                        display: "flex", 
+                        flexWrap: "wrap", 
+                        gap: "30px", 
+                        marginTop: "40px" }}>
+
+                            <div style={{ flex: "1 1 300px" }}>
+                        <ColourPalette data={data}/>
+                    </div>
+                    <div style={{ flex: "1 1 300px" }}>
+                        <Top5 data={data}/>
+                    </div>
+                </div>
+
+                <Insights data={data} />
+
+                    </div>
+
+                    
+            </div>
+            
     )
 };
