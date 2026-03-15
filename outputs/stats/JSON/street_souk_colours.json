@@ -1,52 +1,37 @@
 [
     {
-        "colour": "Black",
-        "count": 13,
-        "percentage": 30.952380952380953
+        "colour": "Grey",
+        "count": 5,
+        "percentage": 29.411764705882355
     },
     {
-        "colour": "Grey",
-        "count": 10,
-        "percentage": 23.809523809523807
+        "colour": "Black",
+        "count": 5,
+        "percentage": 29.411764705882355
     },
     {
         "colour": "Brown",
-        "count": 6,
-        "percentage": 14.285714285714285
-    },
-    {
-        "colour": "Blue",
         "count": 3,
-        "percentage": 7.142857142857142
-    },
-    {
-        "colour": "Cream/Khaki/Beige",
-        "count": 3,
-        "percentage": 7.142857142857142
-    },
-    {
-        "colour": "Red",
-        "count": 2,
-        "percentage": 4.761904761904762
-    },
-    {
-        "colour": "White",
-        "count": 2,
-        "percentage": 4.761904761904762
-    },
-    {
-        "colour": "Purple",
-        "count": 1,
-        "percentage": 2.380952380952381
-    },
-    {
-        "colour": "Pink",
-        "count": 1,
-        "percentage": 2.380952380952381
+        "percentage": 17.647058823529413
     },
     {
         "colour": "Green",
         "count": 1,
-        "percentage": 2.380952380952381
+        "percentage": 5.88235294117647
+    },
+    {
+        "colour": "Blue",
+        "count": 1,
+        "percentage": 5.88235294117647
+    },
+    {
+        "colour": "Cream/Khaki/Beige",
+        "count": 1,
+        "percentage": 5.88235294117647
+    },
+    {
+        "colour": "White",
+        "count": 1,
+        "percentage": 5.88235294117647
     }
 ]

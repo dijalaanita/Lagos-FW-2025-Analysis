@@ -1,0 +1,42 @@
+[
+    {
+        "colour": "White",
+        "count": 8,
+        "percentage": 29.629629629629626
+    },
+    {
+        "colour": "Grey",
+        "count": 5,
+        "percentage": 18.51851851851852
+    },
+    {
+        "colour": "Blue",
+        "count": 5,
+        "percentage": 18.51851851851852
+    },
+    {
+        "colour": "Purple",
+        "count": 3,
+        "percentage": 11.11111111111111
+    },
+    {
+        "colour": "Cream/Khaki/Beige",
+        "count": 2,
+        "percentage": 7.4074074074074066
+    },
+    {
+        "colour": "Pink",
+        "count": 2,
+        "percentage": 7.4074074074074066
+    },
+    {
+        "colour": "Yellow",
+        "count": 1,
+        "percentage": 3.7037037037037033
+    },
+    {
+        "colour": "Brown",
+        "count": 1,
+        "percentage": 3.7037037037037033
+    }
+]

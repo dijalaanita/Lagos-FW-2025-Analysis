@@ -1,27 +1,17 @@
 [
     {
         "colour": "Blue",
-        "count": 20,
-        "percentage": 55.55555555555556
-    },
-    {
-        "colour": "Grey",
-        "count": 8,
-        "percentage": 22.22222222222222
-    },
-    {
-        "colour": "Pink",
-        "count": 4,
-        "percentage": 11.11111111111111
+        "count": 5,
+        "percentage": 71.42857142857143
     },
     {
         "colour": "Purple",
-        "count": 2,
-        "percentage": 5.555555555555555
+        "count": 1,
+        "percentage": 14.285714285714285
     },
     {
-        "colour": "White",
-        "count": 2,
-        "percentage": 5.555555555555555
+        "colour": "Grey",
+        "count": 1,
+        "percentage": 14.285714285714285
     }
 ]

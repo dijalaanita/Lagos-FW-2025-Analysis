@@ -2,16 +2,11 @@
     {
         "colour": "White",
         "count": 3,
-        "percentage": 50.0
+        "percentage": 75.0
     },
     {
-        "colour": "Grey",
-        "count": 2,
-        "percentage": 33.33333333333333
-    },
-    {
-        "colour": "Blue",
+        "colour": "Brown",
         "count": 1,
-        "percentage": 16.666666666666664
+        "percentage": 25.0
     }
 ]

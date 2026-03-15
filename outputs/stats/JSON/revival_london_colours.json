@@ -1,37 +1,32 @@
 [
     {
-        "colour": "Cream/Khaki/Beige",
-        "count": 7,
-        "percentage": 31.818181818181817
-    },
-    {
         "colour": "White",
-        "count": 4,
-        "percentage": 18.181818181818183
+        "count": 7,
+        "percentage": 43.75
     },
     {
         "colour": "Grey",
         "count": 3,
-        "percentage": 13.636363636363635
+        "percentage": 18.75
     },
     {
         "colour": "Red",
-        "count": 3,
-        "percentage": 13.636363636363635
+        "count": 2,
+        "percentage": 12.5
     },
     {
-        "colour": "Brown",
-        "count": 3,
-        "percentage": 13.636363636363635
+        "colour": "Cream/Khaki/Beige",
+        "count": 2,
+        "percentage": 12.5
     },
     {
         "colour": "Pink",
         "count": 1,
-        "percentage": 4.545454545454546
+        "percentage": 6.25
     },
     {
         "colour": "Black",
         "count": 1,
-        "percentage": 4.545454545454546
+        "percentage": 6.25
     }
 ]

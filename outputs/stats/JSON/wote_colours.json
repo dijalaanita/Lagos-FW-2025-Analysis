@@ -1,62 +1,52 @@
 [
     {
         "colour": "Yellow",
-        "count": 19,
-        "percentage": 21.59090909090909
-    },
-    {
-        "colour": "Cream/Khaki/Beige",
-        "count": 12,
-        "percentage": 13.636363636363635
-    },
-    {
-        "colour": "Grey",
-        "count": 10,
-        "percentage": 11.363636363636363
-    },
-    {
-        "colour": "Orange",
         "count": 9,
-        "percentage": 10.227272727272728
-    },
-    {
-        "colour": "White",
-        "count": 9,
-        "percentage": 10.227272727272728
-    },
-    {
-        "colour": "Black",
-        "count": 7,
-        "percentage": 7.954545454545454
+        "percentage": 23.076923076923077
     },
     {
         "colour": "Blue",
         "count": 7,
-        "percentage": 7.954545454545454
+        "percentage": 17.94871794871795
     },
     {
-        "colour": "Brown",
+        "colour": "Grey",
         "count": 5,
-        "percentage": 5.681818181818182
+        "percentage": 12.82051282051282
+    },
+    {
+        "colour": "White",
+        "count": 4,
+        "percentage": 10.256410256410255
+    },
+    {
+        "colour": "Orange",
+        "count": 4,
+        "percentage": 10.256410256410255
+    },
+    {
+        "colour": "Black",
+        "count": 3,
+        "percentage": 7.6923076923076925
+    },
+    {
+        "colour": "Cream/Khaki/Beige",
+        "count": 2,
+        "percentage": 5.128205128205128
     },
     {
         "colour": "Pink",
-        "count": 4,
-        "percentage": 4.545454545454546
-    },
-    {
-        "colour": "Purple",
-        "count": 3,
-        "percentage": 3.4090909090909087
-    },
-    {
-        "colour": "Red",
         "count": 2,
-        "percentage": 2.272727272727273
+        "percentage": 5.128205128205128
+    },
+    {
+        "colour": "Brown",
+        "count": 2,
+        "percentage": 5.128205128205128
     },
     {
         "colour": "Green",
         "count": 1,
-        "percentage": 1.1363636363636365
+        "percentage": 2.564102564102564
     }
 ]
