@@ -122,4 +122,4 @@ def brand_colours(brand: str):
 app.include_router(colours.router)
 app.include_router(fabrics.router)
 app.include_router(insights.router)
-# app.include_router(users.router)
+app.include_router(users.router)
