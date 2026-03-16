@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import colours, insights, fabrics, users
+from .routers import colours, insights, fabrics, users
 import os
 import json
 from pathlib import Path
@@ -14,7 +14,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins = ["http://localhost:5173"],
+    allow_origins = ["http://localhost:3000", "http://localhost:5173"],
     allow_credentials = True,
     allow_methods = ["*"],
     allow_headers = ["*"],
@@ -118,6 +118,21 @@ def brand_colours(brand: str):
     data.sort(key=lambda x: x["count"], reverse=True)
 
     return data
+
+@app.get("/analysis/brand/{brand}/fabrics")
+def get_brand_fabrics(brand: str):
+    # Add logic here to load the {brand}_fabrics.json from your STATS folder
+    file_path = os.path.join(STATS, f"{brand}_fabrics.json")
+    if not os.path.exists(file_path):
+        return []
+    with open(file_path) as f:
+        data = json.load(f)
+    
+    if isinstance(data, list):
+        data.sort(key=lambda x: x.get("count", 0), reverse=True)
+        
+    return data
+    
 
 app.include_router(colours.router)
 app.include_router(fabrics.router)

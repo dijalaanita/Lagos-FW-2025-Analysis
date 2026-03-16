@@ -23,7 +23,8 @@ export default function App() {
 }}>
       <NavBar onLogout={handleLogout}/>
     
-    <div style={{ 
+    <div className="content-container"
+    style={{ 
   padding: "10px", 
   maxWidth: "1200px", 
   margin: "0 auto", 

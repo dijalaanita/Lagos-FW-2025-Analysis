@@ -56,16 +56,29 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
 #root {
-  width: 1126px;
+  width: 100%;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
-  border-inline: 1px solid var(--border);
+  border-inline: none;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+}
+.content-container {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-inline: 1px solid var(--border); /* Move the border here */
+  padding: 20px;
   box-sizing: border-box;
 }
 

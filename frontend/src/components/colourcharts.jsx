@@ -55,9 +55,13 @@ export default function ColourCharts({data}) {
                     height: "400px", 
                     backgroundColor: "#fff",
                     padding: "15px",
-                    borderRadius: "12px"}}>                        
+                    borderRadius: "12px"}}>
+                        <div style={{ 
+                            width: '100%', 
+                            height: '400px', 
+                            minHeight: '350px' }}>                        
                     <ResponsiveContainer width="100%" height="100%">
-                            <BarChart data={data} margin={{ top: 20, right: 30, left: 0, bottom: 60}}>
+                            <BarChart data={data} margin={{ top: 20, right: 30, left: 0, bottom: 100}}>
                                 <XAxis 
                                 dataKey="colour"
                                 angle={-45}
@@ -74,6 +78,7 @@ export default function ColourCharts({data}) {
                                 </Bar>
                             </BarChart>
                         </ResponsiveContainer>
+                        </div>
 
                 </div>
 
@@ -96,7 +101,7 @@ export default function ColourCharts({data}) {
                                     innerRadius={70}
                                     outerRadius={110}
                                     paddingAngle={3}
-                                    label={({name, percent}) => `${name} ${(percent * 100).toFixed(0)}`}>
+                                    label={({name, percent}) => `${name} ${(percent * 100).toFixed(0)}%`}>
 
                                         {data.map((entry,index) => (
                                             <Cell key={`cell-pie-${index}`} 

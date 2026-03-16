@@ -6,21 +6,17 @@ export default function FabricCharts({data}) {
     if (!data || !Array.isArray(data)) return <div style={{ textAlign:"center", padding:"20px"}}>Loading chart..</div>;
     
     const getFabricColour = (entry) => {
-        const fabricName = entry.fabric ? entry.fabric.toLowerCase() : "";
-        
-        const colourMap = {
-        "silk": "#E6D5B8",          // Champagne / Cream
-            "mesh": "#3D3D3D",          // Dark Grey
-            "denim": "#5C7AEA",         // Royal Blue
-            "africa_fabric": "#B85C38", // Terracotta / Rust (for Akwete/Ankara)
-            "akwete": "#B85C38",        // Backup for Akwete
-            "cotton": "#D2C4B3",        // Natural Khaki
-            "cotton_crochet": "#F4F1EA",// Off-white
-            "pu_leather": "#222222",    // Black
-            "linen": "#C8BFA9"          // Light Natural
-    };
-    return colourMap[fabricName] || "#8884d8";
-    };
+    const name = entry.fabric ? entry.fabric.toLowerCase() : "";
+    
+    // Updated to match your specific Profile names from the JSON
+    if (name.includes("sleek")) return "#2E86C1";      // Sleek/Technical
+    if (name.includes("artisanal")) return "#D35400";  // Artisanal/Textured
+    if (name.includes("structured")) return "#27AE60"; // Structured Matte
+    if (name.includes("coarse")) return "#8E44AD";     // Coarse/Natural
+    if (name.includes("unique")) return "#B85C38";     // Unique Ethnic
+    
+    return "#8884d8"; // Default fallback
+};
 
     return (
         <div style={{ 
@@ -52,7 +48,7 @@ export default function FabricCharts({data}) {
                     padding: "15px",
                     borderRadius: "12px"}}>                        
                     <ResponsiveContainer width="100%" height="100%">
-                            <BarChart data={data} margin={{ top: 20, right: 30, left: 0, bottom: 60}}>
+                            <BarChart data={data} margin={{ top: 20, right: 30, left: 0, bottom: 100}}>
                                 <XAxis 
                                 dataKey="fabric"
                                 angle={-45}
@@ -62,7 +58,7 @@ export default function FabricCharts({data}) {
                                 <YAxis />
                                 <Tooltip 
                                 cursor={{ fill: 'transparent' }} />
-                                <Bar dataKey="percentage" radius={[4,4,0,0]}>
+                                <Bar dataKey="count" radius={[4,4,0,0]}>
                                     {data.map((entry,index) => (
                                         <Cell key={`cell-bar-${index}`} fill={getFabricColour(entry)}/>
                                     ))}
@@ -84,14 +80,14 @@ export default function FabricCharts({data}) {
                             <PieChart>
                                 <Pie
                                     data={data}
-                                    dataKey="percentage"
+                                    dataKey="count"
                                     nameKey="fabric"
                                     cx="50%"
                                     cy="50%"
                                     innerRadius={70}
                                     outerRadius={110}
                                     paddingAngle={3}
-                                    label={({name, percent}) => `${name} ${(percent * 100).toFixed(0)}`}>
+                                    label={({name, percent}) => `${name} ${(percent * 100).toFixed(0)}%`}>
 
                                         {data.map((entry,index) => (
                                             <Cell key={`cell-pie-${index}`} 

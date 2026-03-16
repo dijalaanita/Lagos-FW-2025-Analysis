@@ -1,4 +1,4 @@
-export default function BrandSelector({ brands, onSelect }) {
+export default function BrandSelector({ brands, onSelect, currentBrand }) {
 
     return (
         <div style={{ 
@@ -22,7 +22,8 @@ export default function BrandSelector({ brands, onSelect }) {
                 width: "100%",
                 maxWidth: "350px"
             }}>
-                <select onChange={(e) => onSelect(e.target.value)} 
+                <select value={currentBrand}
+                onChange={(e) => onSelect(e.target.value)} 
                     style={{ 
                         width: "100%",
                         appearance: "none", // Hides the default browser arrow

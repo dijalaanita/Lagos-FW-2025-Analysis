@@ -1,57 +1,75 @@
 import { useEffect, useState } from "react"
-import { getOverviewColours } from "../services/api"
+import axios from "axios"; 
+import { getOverviewColours, getOverviewFabrics } from "../services/api"
 import ColourCharts from "../components/colourcharts"
-import Insights from "../components/Insights"
 import ColourPalette from "../components/ColourPalette";
-import Top5 from "../components/top5"
 import Top5Overall from "../components/top5overall";
 import InsightsOverall from "../components/InsightsOverall";
 import FabricCharts from "../components/FabricCharts";
-import Top5Fabrics from "../components/top5fabrics";
 import OverallFabricInsights from "../components/OverallFabricsInsights";
-// import fabricDataJSON from './fabric_analysis.json'
-
 
 export default function Overview(){
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [fabric, setFabric] = useState([]);
+    const [fabric, setFabric] = useState([]); 
 
+    // 1. Fetch Colours
     useEffect(() => {
-
         getOverviewColours()
         .then((response) => {
             setData(response);
-            setLoading(false);})
+            setLoading(false);
+        })
         .catch((error) => {
             console.error("failed to fetch colours", error);
             setLoading(false);
         });
+    }, []); 
 
-        if (fabricJson && fabricJSON.overall_stats){
-        const stats = fabricJson.overall_stats;
-        const fData = Object.keys(stats).map(key => ({
-            fabric: key,
-            percentage: stats[key]
-        }))
-    }
+    // 2. Fetch Fabrics
+    useEffect(() => {
+    // 1. Start loading
+    setLoading(true);
 
-    }, []);
+    // 2. Fetch Fabrics (using the service function you added to api.js)
+    getOverviewFabrics()
+        .then((response) => {
+            setFabric(response);
+        })
+        .catch((error) => {
+            console.error("Failed to fetch fabrics:", error);
+        })
+        .finally(() => {
+            // 3. Stop loading once the request is done (success or failure)
+            setLoading(false);
+        });
+}, []);
 
-    if (loading) return <div>loading overall fashion trends...</div>
-    console.log("Overview Data:", data);
+
+    if (loading) return <div style={{textAlign: "center", padding: "50px"}}>Loading overall fashion trends...</div>
+    
     return (
         <div>
             <h1 style={{ fontSize: "30px", textAlign: "center"}}>LAGOS FASHION WEEK COLOUR TRENDS</h1>
-             {!loading && data?.length > 0 ? (
-            <ColourCharts data={data} />
+            
+            {data && data.length > 0 ? (
+                <ColourCharts data={data} />
             ) : (
-            <p>Loading chart data...</p>
+                <p style={{textAlign: "center"}}>Connecting to colour database...</p>
             )}
-            <ColourPalette data={data}/>
+            <div style={{ 
+                                display: "flex", 
+                                flexWrap: "wrap", 
+                                gap: "30px", 
+                                marginTop: "40px" }}>
+                                <div style={{ flex: "1 1 300px" }}>
+                                    <ColourPalette data={data}/>
+                                </div>
+                                <div style={{ flex: "1 1 300px" }}>
+                                    <Top5Overall data={data}/>
+                                </div>
+                            </div>
             <InsightsOverall data={data}/>
-            <Top5Overall data={data}/>
-
             {/* FABRIC ANALYSIS */}
             <hr style={{ 
                 border: "0", 
@@ -62,15 +80,16 @@ export default function Overview(){
             <h1 style={{ 
                 fontSize: "30px", 
                 textAlign: "center"}}>LAGOS FASHION WEEK FABRIC TRENDS</h1>
-            {fabricData.length > 0 ? (
-                <FabricCharts data={fabric} title="OVERALL FABRIC DISTRIBUTION" />
-            ) : (
-                <p style={{textAlign: "center"}}>Loading fabric data...</p>
-            )}
-            <FabricCharts data={fabric}/>
-            <OverallFabricInsights data={fabric}/>
-
             
-            </div>
+            {/* FIXED: We are checking 'fabric.length' now, not 'fabricData' */}
+            {fabric && fabric.length > 0 ? (
+                <div style={{ height: '400px', width: '100%' }}>
+                    <FabricCharts data={fabric} title="OVERALL FABRIC DISTRIBUTION" />
+                    <OverallFabricInsights data={fabric}/>
+                </div>
+            ) : (
+                <p style={{textAlign: "center"}}>Fetching fabric texture analysis...</p>
+            )}
+        </div>
     )
 }
