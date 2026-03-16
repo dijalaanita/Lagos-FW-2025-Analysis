@@ -6,12 +6,17 @@ import Insights from "../components/Insights"
 import ColourPalette from "../components/ColourPalette"
 import ImageGallery from "../components/imagegallery"
 import Top5 from "../components/top5"
+import FabricCharts from "../components/FabricCharts"
+// import fabricJson from "../data/fabric_analysis.json"
+import Top5Fabrics from "../components/top5fabrics"
+import FabricInsights from "../components/FabricInsights"
 
 export default function BrandAnalysis() {
 
     const [data, setData] = useState([]);
     const [brand, setBrand] = useState("")
     const [brands, setBrands] = useState([])
+    const [fabric, setFabric] = useState([])
     const [loading, setloading] = useState(true)
 
     useEffect(() => {
@@ -41,7 +46,23 @@ export default function BrandAnalysis() {
         console.error("Error fetching brand colours:", error);
             setloading(false);
     })
-    }, [brand])
+
+    if (fabricJson && fabricJson.brand_analysis && fabric.brand_analysis[brand]){
+        const brandedData = fabricJson.brand_analysis[brand];
+        const totalFabrics = Object.values(brandedData).reduce((sum, count) => sum + count, 0);
+        const fData = Object.keys(brandedData).map(key => ({
+            fabric: KeyboardEvent,
+            percentage: Number(((brandedData[key] / totalFabrics) * 100).toFixed(0))
+        }));
+
+        fData.sort((a, b) => b.percentage - a.percentage);
+        setFabric(fData);
+    }
+    else {
+        setFabric([]);
+    }
+
+    }, [brand]);
 
     if (loading) return <p>Loading...</p>
     
@@ -103,6 +124,40 @@ export default function BrandAnalysis() {
                 </div>
 
                 <Insights data={data} />
+
+                {/* FABRIC ANALYSIS */}
+                <hr style={{ 
+                    border: "0", 
+                    height: "1px", 
+                    background: "#ddd", 
+                    margin: "50px 0" }} />
+                
+                <h2 style={{
+                    textAlign: "center", 
+                    fontSize: "20px", 
+                    letterSpacing: "2px", 
+                    fontWeight: "300", 
+                    color: "#666"}}>
+                        MATERIAL & TEXTURE INSIGHTS
+                        </h2>
+
+                {fabricData.length > 0 ? (
+                    <FabricCharts 
+                    data={fabricData} 
+                    title={`${brand.replace(/_/g, ' ').toUpperCase()} FABRIC DISTRIBUTION`} />
+                ) : (
+                    <p style={{
+                        textAlign: "center", 
+                        color: "#999", 
+                        marginTop: "20px"}}>No fabric data extracted for this collection.</p>
+                )}
+
+                {/* New Fabric Ranking component */}
+                    <div style={{ flex: "1 1 300px" }}>
+                        {fabricData.length > 0 && <Top5Fabrics data={fabric} />}
+                    </div>
+                    <FabricInsights data={fabric} brandName={brand}/>
+
 
                     </div>
 
