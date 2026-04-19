@@ -1,14 +1,15 @@
+// FIXED v2 - no isSignup variable, uses showSignup throughout
 import { useState } from "react";
 import { login as loginService, signup } from "../services/auth";
 
-const ROLES =[
-    {
-        value: "designer",
-        label: "Designer",
-        icon: "🎨",
-        description:"Full access: brand analysis, insights, export & research profiles",
-    },
-    {
+const ROLES = [
+  {
+    value: "designer",
+    label: "Designer",
+    icon: "✂️",
+    description: "Full access: brand analysis, insights, export & research profiles",
+  },
+  {
     value: "student",
     label: "Student",
     icon: "🎓",
@@ -20,44 +21,44 @@ const ROLES =[
     icon: "🛍️",
     description: "Overview, commercial insights & top colour/fabric picks",
   },
-]
+];
 
-export default function Login({ loginSuccess}){
-    const [isSigned, setIsSigned] = useState(false);
-    const [form, setForm] = useState({ username: "", password:""});
-    const [selectedRole, setSelectedRole] = useState(ROLES[0].value);
-    const [error, setError] = useState("");
-    const [loading, setLoading] = useState(false);
+export default function Login({ loginSuccess }) {
+  const [isSignup, setIsSignup] = useState(false);
+  const [form, setForm] = useState({ username: "", password: "" });
+  const [selectedRole, setSelectedRole] = useState("student");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setError("");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
 
-        if (!form.username.trim() || !form.password.trim()) {
-            setError("Username and password are required.");
-            return;
-        }
-        setLoading(true);
-        try {
-            if (isSigned) {
-                await signup(form.username, form.password, selectedRole);
-                alert("Signup successful! Please login.");
-                setIsSigned(false);
-                setForm({ username: "", password: "" });
-            } else {
-                await loginService(form.username, form.password);
-                loginSuccess();
-            }
-        } catch (err) {
-            const detail = err.response?.data?.detail;
-            setError(detail || "An error occurred. Please try again.");
-        } finally {
-            setLoading(false);
-        }
+    if (!form.username.trim() || !form.password.trim()) {
+      setError("Please fill in all fields.");
+      return;
+    }
 
-    };
+    setLoading(true);
+    try {
+      if (isSignup) {
+        await signup(form.username, form.password, selectedRole);
+        alert("Account created! Please log in.");
+        setIsSignup(false);
+        setForm({ username: "", password: "" });
+      } else {
+        await loginService(form.username, form.password);
+        loginSuccess();
+      }
+    } catch (err) {
+      const detail = err?.response?.data?.detail;
+      setError(detail || "Authentication failed. Check your credentials.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    return (
+  return (
     <div style={{
       minHeight: "100vh",
       display: "flex",
@@ -87,7 +88,7 @@ export default function Login({ loginSuccess}){
             {isSignup ? "Create your account" : "Welcome back"}
           </h2>
         </div>
- 
+
         {/* Role selector — only shown on signup */}
         {isSignup && (
           <div style={{ marginBottom: "24px" }}>
@@ -131,7 +132,7 @@ export default function Login({ loginSuccess}){
             </div>
           </div>
         )}
- 
+
         {/* Form */}
         <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
           <input
@@ -150,13 +151,13 @@ export default function Login({ loginSuccess}){
             style={inputStyle}
             autoComplete={isSignup ? "new-password" : "current-password"}
           />
- 
+
           {error && (
             <p style={{ color: "#c0392b", fontSize: "13px", margin: 0, textAlign: "center" }}>
               {error}
             </p>
           )}
- 
+
           <button
             type="submit"
             disabled={loading}
@@ -178,7 +179,7 @@ export default function Login({ loginSuccess}){
             {loading ? "Please wait..." : isSignup ? "Create Account" : "Login"}
           </button>
         </form>
- 
+
         {/* Toggle */}
         <p
           onClick={() => { setIsSignup(!isSignup); setError(""); }}
@@ -197,7 +198,7 @@ export default function Login({ loginSuccess}){
     </div>
   );
 }
- 
+
 const inputStyle = {
   padding: "12px 14px",
   border: "1px solid #ddd",
