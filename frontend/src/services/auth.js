@@ -1,52 +1,60 @@
-import axios from "axios"
+import axios from "axios";
 
 const API_BASE = axios.create({
   baseURL: "http://127.0.0.1:8000",
-})
+});
+
 /**
- * 
- * @param {string} username 
- * @param {string} password 
- * @param {string} email
- * @param {string} full_name
- * @param {"designer" | "student" | "buyer"} role
- * @returns 
+ * Register a new user with a role.
+ * @param {string} username
+ * @param {string} password
+ * @param {"designer"|"student"|"buyer"} role
  */
-
-export const signup = async (username, password, email, full_name, role) =>{
-    const response = await API_BASE.post("/auth/signup", { username, password, email, full_name, role })
-    return response.data
-};
-// login and store the token in localStorage for future authenticated requests
-
-export const login = async (username, password) =>{
-    const response = await API_BASE.post("/auth/login", { username, password })
-    if (response.data.access_token){
-        localStorage.setItem("user_token", response.data.access_token);
-        localStorage.setItem("user_role", response.data.role);
-        localStorage.setItem("username", response.data.username);
-
-    }
-    return response.data
-};
-// logout by removing the token from localStorage
-export const logout = async () => {
-    localStorage.removeItem("user_token");
-    localStorage.removeItem("user_role");
-    localStorage.removeItem("username");
+export const signup = async (username, password, role) => {
+  const response = await API_BASE.post("/auth/signup", { username, password, role });
+  return response.data;
 };
 
-// return true if the user is authenticated (i.e., has a token in localStorage), false otherwise
-export const isAuthenticated = async () => {
-    return !!localStorage.getItem("user_token")
+/**
+ * Log in and store the token + role in localStorage.
+ */
+export const login = async (username, password) => {
+  const response = await API_BASE.post("/auth/login", { username, password });
+  if (response.data.access_token) {
+    localStorage.setItem("user_token", response.data.access_token);
+    localStorage.setItem("user_role", response.data.role);
+    localStorage.setItem("username", response.data.username);
+  }
+  return response.data;
 };
 
-// return stored role
-export const getUserRole = async () => {
-    return localStorage.getItem("user_role")
+/**
+ * Log out — clear all stored session data.
+ */
+export const logout = () => {
+  localStorage.removeItem("user_token");
+  localStorage.removeItem("user_role");
+  localStorage.removeItem("username");
 };
 
-// return stored username
-export const getUsername = async () => {
-    return localStorage.getItem("username")
+/**
+ * Returns true if a token exists in localStorage.
+ * NOTE: synchronous — no async needed.
+ */
+export const isAuthenticated = () => {
+  return !!localStorage.getItem("user_token");
+};
+
+/**
+ * Returns the stored role: "designer" | "student" | "buyer" | null
+ */
+export const getRole = () => {
+  return localStorage.getItem("user_role");
+};
+
+/**
+ * Returns the stored username or null.
+ */
+export const getUsername = () => {
+  return localStorage.getItem("username");
 };
