@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
-import { getBrandColours, getBrands } from "../services/api";
+import { getBrandColours, getBrands, getBrandFabrics } from "../services/api";
 import { useRole } from "../App";
 import ColourCharts from "../components/colourcharts";
 import BrandSelector from "../components/BrandSelector";
@@ -17,13 +16,12 @@ import ExportReport from "../components/ExportReport";
 export default function BrandAnalysis() {
   const { role } = useRole();
 
-  const [data, setData] = useState([]);
-  const [brand, setBrand] = useState("");
-  const [brands, setBrands] = useState([]);
-  const [fabric, setFabric] = useState([]);
+  const [data, setData]       = useState([]);
+  const [brand, setBrand]     = useState("");
+  const [brands, setBrands]   = useState([]);
+  const [fabric, setFabric]   = useState([]);
   const [loading, setLoading] = useState(true);
-  // Tab: "analysis" | "profile"
-  const [tab, setTab] = useState("analysis");
+  const [tab, setTab]         = useState("analysis");
 
   useEffect(() => {
     getBrands()
@@ -33,26 +31,26 @@ export default function BrandAnalysis() {
           setBrand(response[0]);
         }
       })
-      .catch(error => console.error("Error fetching brands:", error));
+      .catch(err => console.error("Error fetching brands:", err));
   }, []);
 
   useEffect(() => {
     if (!brand) return;
     setLoading(true);
-    const fetchBrandData = async () => {
-      try {
-        const colourRes = await getBrandColours(brand);
-        setData(colourRes);
-        const fabricRes = await axios.get(`http://127.0.0.1:8000/analysis/brand/${brand}/fabrics`);
-        setFabric(fabricRes.data);
-      } catch (error) {
-        console.error("Error fetching brand details:", error);
+
+    Promise.all([
+      getBrandColours(brand),
+      getBrandFabrics(brand),
+    ])
+      .then(([colourRes, fabricRes]) => {
+        setData(colourRes   || []);
+        setFabric(fabricRes || []);
+      })
+      .catch(err => {
+        console.error("Error fetching brand data:", err);
         setFabric([]);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchBrandData();
+      })
+      .finally(() => setLoading(false));
   }, [brand]);
 
   if (loading) return (
@@ -64,12 +62,11 @@ export default function BrandAnalysis() {
   return (
     <div style={{
       maxWidth: "1100px", margin: "0 auto", padding: "20px",
-      fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif", color: "#333"
+      fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif", color: "#333",
     }}>
-      {/* Header */}
       <h1 style={{
         fontSize: "2.5rem", textAlign: "center", letterSpacing: "4px",
-        fontWeight: "300", marginBottom: "40px", lineHeight: "1.4"
+        fontWeight: "300", marginBottom: "40px", lineHeight: "1.4",
       }}>
         {brand.replace(/_/g, " ").toUpperCase()}<br />
         <span style={{ fontSize: "1rem", fontWeight: "600", color: "#999", letterSpacing: "3px" }}>
@@ -77,13 +74,17 @@ export default function BrandAnalysis() {
         </span>
       </h1>
 
-      <BrandSelector brands={brands} onSelect={(b) => { setBrand(b); setTab("analysis"); }} currentBrand={brand} />
+      <BrandSelector
+        brands={brands}
+        onSelect={(b) => { setBrand(b); setTab("analysis"); }}
+        currentBrand={brand}
+      />
 
       {/* Tab Bar */}
       <div style={{ display: "flex", gap: "4px", margin: "28px 0 0", borderBottom: "2px solid #eee" }}>
         {[
           { key: "analysis", label: "Collection Analysis" },
-          { key: "profile", label: "Designer Profile" },
+          { key: "profile",  label: "Designer Profile"   },
         ].map(t => (
           <button key={t.key} onClick={() => setTab(t.key)} style={{
             padding: "10px 22px", border: "none", background: "none", cursor: "pointer",
@@ -95,23 +96,22 @@ export default function BrandAnalysis() {
             {t.label.toUpperCase()}
           </button>
         ))}
-
-        {/* Export button — all roles */}
         <div style={{ marginLeft: "auto", paddingBottom: "8px" }}>
           <ExportReport brand={brand} colours={data} fabrics={fabric} role={role} />
         </div>
       </div>
 
-      {/* ── Tab: Collection Analysis ── */}
+      {/* Collection Analysis Tab */}
       {tab === "analysis" && (
         <>
           <ImageGallery brandName={brand} />
 
           <div style={{ backgroundColor: "#fafafa", borderRadius: "20px", padding: "30px", marginTop: "20px" }}>
+
             {data?.length > 0 ? (
               <ColourCharts data={data} />
             ) : (
-              <p style={{ textAlign: "center" }}>No colour data available.</p>
+              <p style={{ textAlign: "center", color: "#999" }}>No colour data available.</p>
             )}
 
             <div style={{ display: "flex", flexWrap: "wrap", gap: "30px", marginTop: "40px" }}>
@@ -121,27 +121,32 @@ export default function BrandAnalysis() {
 
             <Insights data={data} />
 
-            {/* Fabric section */}
+            {/* Fabric / Texture Section */}
             {fabric?.length > 0 && (
               <>
                 <hr style={{ border: 0, height: "1px", background: "#e0e0e0", margin: "40px 0" }} />
-                <h2 style={{ fontSize: "14px", fontWeight: "700", letterSpacing: "3px", color: "#999", textAlign: "center", marginBottom: "24px" }}>
-                  FABRIC ANALYSIS
+                <h2 style={{
+                  fontSize: "14px", fontWeight: "700", letterSpacing: "3px",
+                  color: "#999", textAlign: "center", marginBottom: "24px",
+                }}>
+                  SURFACE TEXTURE ANALYSIS
                 </h2>
-                <div style={{ height: "400px", width: "100%" }}>
-                  <FabricCharts data={fabric} title={`${brand.replace(/_/g, " ").toUpperCase()} FABRIC DISTRIBUTION`} />
-                </div>
+
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "30px", marginTop: "30px" }}>
-                  <div style={{ flex: "1 1 300px" }}><Top5Fabrics data={fabric} /></div>
+                  <div style={{ flex: "1 1 300px" }}>
+                    <Top5Fabrics data={fabric} />
+                  </div>
                 </div>
-                <FabricInsights data={fabric} />
+
+                {/* FabricInsights now receives brand for storytelling */}
+                <FabricInsights data={fabric} brand={brand} />
               </>
             )}
           </div>
         </>
       )}
 
-      {/* ── Tab: Designer Profile ── */}
+      {/* Designer Profile Tab */}
       {tab === "profile" && (
         <div style={{ marginTop: "24px" }}>
           <DesignerProfile brands={brands} currentBrand={brand} />

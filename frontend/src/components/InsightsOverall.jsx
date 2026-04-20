@@ -8,11 +8,10 @@ export default function InsightsOverall({ data }){
 
             <h3 style={{ textAlign: "center", fontSize: "30px" }}>Key Insights</h3>
             <p style={{ textAlign: "center"}}>
-                The dominant colour for the entire fashion show is 
-                <strong> {top.colour || top.colours}</strong>
-                {" "}appearing in 
+                <strong> {top.colour || top.colours} </strong>
+                leads the palette, appearing in approximately
                 <strong> {parseFloat(top.percentage || 0).toFixed(0)}% </strong> 
-                of the looks.
+                of the LFW F/W 2025 runway chose most.
             </p>
 
         </div>

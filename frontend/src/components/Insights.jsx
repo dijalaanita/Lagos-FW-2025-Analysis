@@ -8,12 +8,12 @@ export default function Insights({ data }){
 
             <h3 style={{ textAlign: "center", fontSize: "30px" }}>Key Insights</h3>
             <p style={{ textAlign: "center"}}>
-                The dominant colour in this collection is 
-                <strong> {top.colour || top.colours}</strong>
-                {" "}appearing in 
+                <strong> {top.colour || top.colours} </strong>
+                was chosen above all else, at
                 <strong> {parseFloat(top.percentage || 0).toFixed(0)}% </strong> 
-                of the looks.
+                it is the collection's 
             </p>
+            
 
         </div>
     )
