@@ -6,8 +6,8 @@
     },
     {
         "brand": "adage_studio_project_x_unrefyned",
-        "image": "last_three_4.jpg",
-        "colours": "Brown"
+        "image": "last_three_2.jpg",
+        "colours": "Black, Grey, Blue"
     },
     {
         "brand": "adage_studio_project_x_unrefyned",
@@ -22,27 +22,22 @@
     {
         "brand": "adama_paris",
         "image": "adama_paris_1.jpg",
-        "colours": "Orange"
+        "colours": "Yellow, Brown"
     },
     {
         "brand": "adama_paris",
         "image": "adama_paris_10.jpg",
-        "colours": "Orange, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "adama_paris",
         "image": "adama_paris_13.jpg",
-        "colours": "Red, Orange"
-    },
-    {
-        "brand": "adama_paris",
-        "image": "adama_paris_15.jpg",
-        "colours": "Grey"
+        "colours": "Brown"
     },
     {
         "brand": "adama_paris",
         "image": "adama_paris_17.jpg",
-        "colours": "Orange"
+        "colours": "Red, Brown, Orange"
     },
     {
         "brand": "adama_paris",
@@ -52,7 +47,7 @@
     {
         "brand": "adama_paris",
         "image": "adama_paris_19.jpg",
-        "colours": "Orange"
+        "colours": "Orange, Brown"
     },
     {
         "brand": "adama_paris",
@@ -62,7 +57,7 @@
     {
         "brand": "adama_paris",
         "image": "adama_paris_22.jpg",
-        "colours": "Red"
+        "colours": "Brown"
     },
     {
         "brand": "adama_paris",
@@ -72,22 +67,17 @@
     {
         "brand": "adama_paris",
         "image": "adama_paris_3.jpg",
-        "colours": "Red, Orange"
-    },
-    {
-        "brand": "adama_paris",
-        "image": "adama_paris_4.jpg",
-        "colours": "Red, Orange"
+        "colours": "Brown"
     },
     {
         "brand": "adama_paris",
         "image": "adama_paris_6.jpg",
-        "colours": "Yellow, Brown"
+        "colours": "Yellow"
     },
     {
         "brand": "adama_paris",
         "image": "adama_paris_7.jpg",
-        "colours": "Orange"
+        "colours": "Brown"
     },
     {
         "brand": "adama_paris",
@@ -97,17 +87,17 @@
     {
         "brand": "ajabeng",
         "image": "ajabeng_1.jpg",
-        "colours": "Yellow"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "ajabeng",
         "image": "ajabeng_10.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "ajabeng",
         "image": "ajabeng_11.jpg",
-        "colours": "White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "ajabeng",
@@ -117,7 +107,7 @@
     {
         "brand": "ajabeng",
         "image": "ajabeng_13.jpg",
-        "colours": "Black"
+        "colours": "Black, Grey"
     },
     {
         "brand": "ajabeng",
@@ -132,7 +122,7 @@
     {
         "brand": "ajabeng",
         "image": "ajabeng_3.jpg",
-        "colours": "Yellow, Orange, Cream/Khaki/Beige"
+        "colours": "Yellow, Orange"
     },
     {
         "brand": "ajabeng",
@@ -147,7 +137,7 @@
     {
         "brand": "ajabeng",
         "image": "ajabeng_6.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "ajabeng",
@@ -167,27 +157,17 @@
     {
         "brand": "ajanee",
         "image": "ajanee_11.jpg",
-        "colours": "Red, Purple"
-    },
-    {
-        "brand": "ajanee",
-        "image": "ajanee_12.jpg",
-        "colours": "Pink, White"
-    },
-    {
-        "brand": "ajanee",
-        "image": "ajanee_13.jpg",
-        "colours": "Pink, Blue"
+        "colours": "Purple, Brown"
     },
     {
         "brand": "ajanee",
         "image": "ajanee_14.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Purple, Blue"
     },
     {
         "brand": "ajanee",
         "image": "ajanee_15.jpg",
-        "colours": "Red, Black"
+        "colours": "Red"
     },
     {
         "brand": "ajanee",
@@ -201,23 +181,18 @@
     },
     {
         "brand": "ajanee",
-        "image": "ajanee_2.jpg",
-        "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "ajanee",
         "image": "ajanee_3.jpg",
-        "colours": "Pink, Grey, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "ajanee",
         "image": "ajanee_4.jpg",
-        "colours": "Yellow"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "ajanee",
         "image": "ajanee_5.jpg",
-        "colours": "White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "ajanee",
@@ -227,7 +202,7 @@
     {
         "brand": "ajanee",
         "image": "ajanee_7.jpg",
-        "colours": "Purple"
+        "colours": "White, Blue"
     },
     {
         "brand": "ajanee",
@@ -241,23 +216,18 @@
     },
     {
         "brand": "babayo",
-        "image": "babayo_1.jpg",
-        "colours": "Orange"
-    },
-    {
-        "brand": "babayo",
         "image": "babayo_10.jpg",
         "colours": "White"
     },
     {
         "brand": "babayo",
         "image": "babayo_11.jpg",
-        "colours": "White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "babayo",
         "image": "babayo_12.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "babayo",
@@ -267,27 +237,17 @@
     {
         "brand": "babayo",
         "image": "babayo_16.jpg",
-        "colours": "Red, Orange"
+        "colours": "Red, Brown"
     },
     {
         "brand": "babayo",
         "image": "babayo_18.jpg",
-        "colours": "Red, Orange"
-    },
-    {
-        "brand": "babayo",
-        "image": "babayo_19.jpg",
-        "colours": "Brown"
-    },
-    {
-        "brand": "babayo",
-        "image": "babayo_2.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "Red, Brown, Orange"
     },
     {
         "brand": "babayo",
         "image": "babayo_20.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "babayo",
@@ -302,7 +262,7 @@
     {
         "brand": "babayo",
         "image": "babayo_24.jpg",
-        "colours": "Purple, Grey, Black"
+        "colours": "Black"
     },
     {
         "brand": "babayo",
@@ -322,7 +282,7 @@
     {
         "brand": "babayo",
         "image": "babayo_28.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "babayo",
@@ -332,12 +292,12 @@
     {
         "brand": "babayo",
         "image": "babayo_31.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "White"
     },
     {
         "brand": "babayo",
         "image": "babayo_32.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "White"
     },
     {
         "brand": "babayo",
@@ -356,11 +316,6 @@
     },
     {
         "brand": "babayo",
-        "image": "babayo_6.jpg",
-        "colours": "Brown"
-    },
-    {
-        "brand": "babayo",
         "image": "babayo_7.jpg",
         "colours": "Brown"
     },
@@ -375,9 +330,89 @@
         "colours": "Brown"
     },
     {
+        "brand": "bloke",
+        "image": "bloke_1.jpg",
+        "colours": "Cream/Khaki/Beige, Brown"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_10.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_11.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_12.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_13.jpg",
+        "colours": "Black, Grey"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_14.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_15.jpg",
+        "colours": "Grey"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_16.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_17.jpg",
+        "colours": "Black, Grey, Blue"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_18.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_2.jpg",
+        "colours": "Grey, Blue"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_3.jpg",
+        "colours": "Grey"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_4.jpg",
+        "colours": "Grey"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_7.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_8.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "bloke",
+        "image": "bloke_9.jpg",
+        "colours": "Grey"
+    },
+    {
         "brand": "boyedoe",
         "image": "boyedoe_1.jpg",
-        "colours": "Red"
+        "colours": "Cream/Khaki/Beige, Brown"
     },
     {
         "brand": "boyedoe",
@@ -416,17 +451,12 @@
     },
     {
         "brand": "boyedoe",
-        "image": "boyedoe_17.jpg",
-        "colours": "Grey, Blue"
-    },
-    {
-        "brand": "boyedoe",
-        "image": "boyedoe_18.jpg",
-        "colours": "Grey"
-    },
-    {
-        "brand": "boyedoe",
         "image": "boyedoe_19.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "boyedoe",
+        "image": "boyedoe_20.jpg",
         "colours": "Blue"
     },
     {
@@ -437,12 +467,12 @@
     {
         "brand": "boyedoe",
         "image": "boyedoe_23.jpg",
-        "colours": "Blue"
+        "colours": "White"
     },
     {
         "brand": "boyedoe",
         "image": "boyedoe_25.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "boyedoe",
@@ -452,17 +482,17 @@
     {
         "brand": "boyedoe",
         "image": "boyedoe_29.jpg",
-        "colours": "Grey"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "boyedoe",
         "image": "boyedoe_3.jpg",
-        "colours": "Orange, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "boyedoe",
         "image": "boyedoe_6.jpg",
-        "colours": "Red, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "boyedoe",
@@ -480,6 +510,116 @@
         "colours": "Blue"
     },
     {
+        "brand": "cute_saint",
+        "image": "1-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Red, Brown"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "10-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black, Pink"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "11-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "12-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Pink"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "13-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black, Grey"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "14-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black, Grey"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "15-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "16-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "17-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "19-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "2-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Red, Brown, Pink"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "20-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "22-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black, Grey"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "23-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "24-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "25-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "3-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "4-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black, Red"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "5-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "6-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "7-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Red"
+    },
+    {
+        "brand": "cute_saint",
+        "image": "9-CUTE-SAINT-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_10.jpg",
         "colours": "White"
@@ -492,7 +632,7 @@
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_12.jpg",
-        "colours": "Orange"
+        "colours": "Red, Orange"
     },
     {
         "brand": "cynthia_abila",
@@ -502,7 +642,7 @@
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_15.jpg",
-        "colours": "Orange"
+        "colours": "Red"
     },
     {
         "brand": "cynthia_abila",
@@ -512,12 +652,12 @@
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_17.jpg",
-        "colours": "Orange, Cream/Khaki/Beige"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_18.jpg",
-        "colours": "Green, Brown"
+        "colours": "Grey"
     },
     {
         "brand": "cynthia_abila",
@@ -542,7 +682,7 @@
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_24.jpg",
-        "colours": "Red, Purple"
+        "colours": "Brown"
     },
     {
         "brand": "cynthia_abila",
@@ -552,12 +692,7 @@
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_26.jpg",
-        "colours": "Orange, Brown"
-    },
-    {
-        "brand": "cynthia_abila",
-        "image": "cynthia_abila_3.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "Orange, Red"
     },
     {
         "brand": "cynthia_abila",
@@ -572,22 +707,22 @@
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_6.jpg",
-        "colours": "Red, Pink"
+        "colours": "Red"
     },
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_7.jpg",
-        "colours": "Red, Orange, White"
+        "colours": "White, Red"
     },
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_8.jpg",
-        "colours": "Black"
+        "colours": "Black, Grey"
     },
     {
         "brand": "cynthia_abila",
         "image": "cynthia_abila_9.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "desiree_iyama",
@@ -597,32 +732,17 @@
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_10.jpg",
-        "colours": "Purple, Black"
-    },
-    {
-        "brand": "desiree_iyama",
-        "image": "desiree_iyama_11.jpg",
-        "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "desiree_iyama",
-        "image": "desiree_iyama_12.jpg",
-        "colours": "Purple"
+        "colours": "Black, Purple"
     },
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_14.jpg",
-        "colours": "Brown"
-    },
-    {
-        "brand": "desiree_iyama",
-        "image": "desiree_iyama_16.jpg",
-        "colours": "Pink"
+        "colours": "Green"
     },
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_18.jpg",
-        "colours": "Red"
+        "colours": "Brown"
     },
     {
         "brand": "desiree_iyama",
@@ -647,17 +767,17 @@
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_23.jpg",
-        "colours": "Red, Pink, Orange"
+        "colours": "Orange, Red"
     },
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_24.jpg",
-        "colours": "Blue"
+        "colours": "Grey"
     },
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_25.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "desiree_iyama",
@@ -687,7 +807,7 @@
     {
         "brand": "desiree_iyama",
         "image": "desiree_iyama_9.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "dimeji_ilori",
@@ -702,12 +822,12 @@
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_11.jpg",
-        "colours": "Purple, Pink"
+        "colours": "Grey"
     },
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_12.jpg",
-        "colours": "Purple"
+        "colours": "Black, Purple"
     },
     {
         "brand": "dimeji_ilori",
@@ -718,11 +838,6 @@
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_14.jpg",
         "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "dimeji_ilori",
-        "image": "dimeji_ilori_15.jpg",
-        "colours": "Orange"
     },
     {
         "brand": "dimeji_ilori",
@@ -737,22 +852,17 @@
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_20.jpg",
-        "colours": "Black, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_21.jpg",
-        "colours": "Purple, Grey, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_23.jpg",
         "colours": "Black"
-    },
-    {
-        "brand": "dimeji_ilori",
-        "image": "dimeji_ilori_25.jpg",
-        "colours": "Brown"
     },
     {
         "brand": "dimeji_ilori",
@@ -762,7 +872,7 @@
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_3.jpg",
-        "colours": "Red"
+        "colours": "Red, Brown"
     },
     {
         "brand": "dimeji_ilori",
@@ -771,28 +881,33 @@
     },
     {
         "brand": "dimeji_ilori",
+        "image": "dimeji_ilori_5.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "dimeji_ilori",
         "image": "dimeji_ilori_6.jpg",
-        "colours": "Red, Purple"
+        "colours": "Brown"
     },
     {
         "brand": "dimeji_ilori",
         "image": "dimeji_ilori_9.jpg",
-        "colours": "Purple, White"
+        "colours": "White"
     },
     {
         "brand": "eki_silk",
         "image": "eki_silk_10.jpg",
-        "colours": "Red, Pink"
+        "colours": "Orange, Red"
     },
     {
         "brand": "eki_silk",
         "image": "eki_silk_12.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "eki_silk",
         "image": "eki_silk_13.jpg",
-        "colours": "Black, White"
+        "colours": "White"
     },
     {
         "brand": "eki_silk",
@@ -802,27 +917,17 @@
     {
         "brand": "eki_silk",
         "image": "eki_silk_2.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "Grey, White"
     },
     {
         "brand": "eki_silk",
         "image": "eki_silk_3.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White"
     },
     {
         "brand": "eki_silk",
         "image": "eki_silk_4.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "eki_silk",
-        "image": "eki_silk_5.jpg",
         "colours": "Grey"
-    },
-    {
-        "brand": "eki_silk",
-        "image": "eki_silk_6.jpg",
-        "colours": "Orange"
     },
     {
         "brand": "eki_silk",
@@ -837,12 +942,7 @@
     {
         "brand": "elexiay",
         "image": "elexiay_1.jpg",
-        "colours": "Purple"
-    },
-    {
-        "brand": "elexiay",
-        "image": "elexiay_10.jpg",
-        "colours": "Pink"
+        "colours": "White"
     },
     {
         "brand": "elexiay",
@@ -852,12 +952,12 @@
     {
         "brand": "elexiay",
         "image": "elexiay_12.jpg",
-        "colours": "Yellow, Orange"
+        "colours": "Orange"
     },
     {
         "brand": "elexiay",
         "image": "elexiay_13.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "elexiay",
@@ -867,22 +967,22 @@
     {
         "brand": "elexiay",
         "image": "elexiay_16.jpg",
-        "colours": "Red, Pink, Orange"
+        "colours": "Red, Orange"
     },
     {
         "brand": "elexiay",
         "image": "elexiay_17.jpg",
-        "colours": "Red, Pink"
+        "colours": "Red"
     },
     {
         "brand": "elexiay",
         "image": "elexiay_18.jpg",
-        "colours": "Red, Pink"
+        "colours": "Red"
     },
     {
         "brand": "elexiay",
         "image": "elexiay_2.jpg",
-        "colours": "Purple, Blue"
+        "colours": "White, Blue"
     },
     {
         "brand": "elexiay",
@@ -902,22 +1002,17 @@
     {
         "brand": "elexiay",
         "image": "elexiay_7.jpg",
-        "colours": "Pink, White"
+        "colours": "White"
     },
     {
         "brand": "elexiay",
         "image": "elexiay_8.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "elexiay",
-        "image": "elexiay_9.jpg",
-        "colours": "Pink"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_10.jpg",
-        "colours": "Red, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
@@ -936,28 +1031,23 @@
     },
     {
         "brand": "emmy_kasbit",
-        "image": "emmy_kasbit_14.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "emmy_kasbit",
         "image": "emmy_kasbit_16.jpg",
         "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_17.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_18.jpg",
-        "colours": "Red, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_19.jpg",
-        "colours": "Orange, Cream/Khaki/Beige"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "emmy_kasbit",
@@ -968,11 +1058,6 @@
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_20.jpg",
         "colours": "White"
-    },
-    {
-        "brand": "emmy_kasbit",
-        "image": "emmy_kasbit_21.jpg",
-        "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
@@ -992,22 +1077,17 @@
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_26.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_28.jpg",
-        "colours": "Red, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_30.jpg",
-        "colours": "Red, Brown"
-    },
-    {
-        "brand": "emmy_kasbit",
-        "image": "emmy_kasbit_31.jpg",
-        "colours": "Pink"
+        "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
@@ -1017,7 +1097,7 @@
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_34.jpg",
-        "colours": "Orange"
+        "colours": "Orange, Red"
     },
     {
         "brand": "emmy_kasbit",
@@ -1037,7 +1117,7 @@
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_4.jpg",
-        "colours": "Orange, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "emmy_kasbit",
@@ -1057,22 +1137,22 @@
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_6.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_7.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_8.jpg",
-        "colours": "Red, Purple, Pink"
+        "colours": "Purple, Pink"
     },
     {
         "brand": "emmy_kasbit",
         "image": "emmy_kasbit_9.jpg",
-        "colours": "Red"
+        "colours": "Red, Brown"
     },
     {
         "brand": "eso_by_liman",
@@ -1091,11 +1171,6 @@
     },
     {
         "brand": "eso_by_liman",
-        "image": "eso_by_liman_12.jpg",
-        "colours": "Red"
-    },
-    {
-        "brand": "eso_by_liman",
         "image": "eso_by_liman_14.jpg",
         "colours": "Yellow, Orange"
     },
@@ -1107,22 +1182,17 @@
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_17.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "Grey, White"
+    },
+    {
+        "brand": "eso_by_liman",
+        "image": "eso_by_liman_19.jpg",
+        "colours": "Blue"
     },
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_2.jpg",
         "colours": "White"
-    },
-    {
-        "brand": "eso_by_liman",
-        "image": "eso_by_liman_21.jpg",
-        "colours": "Blue"
-    },
-    {
-        "brand": "eso_by_liman",
-        "image": "eso_by_liman_22.jpg",
-        "colours": "Black, Grey"
     },
     {
         "brand": "eso_by_liman",
@@ -1132,7 +1202,7 @@
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_24.jpg",
-        "colours": "Black"
+        "colours": "Black, Grey"
     },
     {
         "brand": "eso_by_liman",
@@ -1142,7 +1212,7 @@
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_26.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "eso_by_liman",
@@ -1162,7 +1232,7 @@
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_30.jpg",
-        "colours": "Yellow, Orange, Brown"
+        "colours": "Yellow, Orange"
     },
     {
         "brand": "eso_by_liman",
@@ -1172,7 +1242,7 @@
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_5.jpg",
-        "colours": "White, Blue"
+        "colours": "White"
     },
     {
         "brand": "eso_by_liman",
@@ -1182,12 +1252,142 @@
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_7.jpg",
-        "colours": "Black"
+        "colours": "Black, White"
     },
     {
         "brand": "eso_by_liman",
         "image": "eso_by_liman_9.jpg",
         "colours": "White"
+    },
+    {
+        "brand": "fia",
+        "image": "10-FIA-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "12-FIA-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "13-FIA-LagosFW2025.jpg",
+        "colours": "White, Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "15-FIA-LagosFW2025.jpg",
+        "colours": "Grey, Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "16-FIA-LagosFW2025.jpg",
+        "colours": "Black, Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "17-FIA-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "18-FIA-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "19-FIA-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "20-FIA-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "21-FIA-LagosFW2025.jpg",
+        "colours": "Red"
+    },
+    {
+        "brand": "fia",
+        "image": "22-FIA-LagosFW2025.jpg",
+        "colours": "Red"
+    },
+    {
+        "brand": "fia",
+        "image": "23-FIA-LagosFW2025.jpg",
+        "colours": "White"
+    },
+    {
+        "brand": "fia",
+        "image": "24-FIA-LagosFW2025.jpg",
+        "colours": "Black, White"
+    },
+    {
+        "brand": "fia",
+        "image": "25-FIA-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "fia",
+        "image": "26-FIA-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "27-FIA-LagosFW2025.jpg",
+        "colours": "White, Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "28-FIA-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "fia",
+        "image": "29-FIA-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "3-FIA-LagosFW2025.jpg",
+        "colours": "Orange"
+    },
+    {
+        "brand": "fia",
+        "image": "31-FIA-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "4-FIA-LagosFW2025.jpg",
+        "colours": "Black, Orange"
+    },
+    {
+        "brand": "fia",
+        "image": "5-FIA-LagosFW2025.jpg",
+        "colours": "Orange, Red"
+    },
+    {
+        "brand": "fia",
+        "image": "6-FIA-LagosFW2025.jpg",
+        "colours": "Grey, Brown"
+    },
+    {
+        "brand": "fia",
+        "image": "7-FIA-LagosFW2025.jpg",
+        "colours": "Grey, Cream/Khaki/Beige"
+    },
+    {
+        "brand": "fia",
+        "image": "8-FIA-LagosFW2025.jpg",
+        "colours": "White, Blue"
+    },
+    {
+        "brand": "fia",
+        "image": "9-FIA-LagosFW2025.jpg",
+        "colours": "Brown"
     },
     {
         "brand": "for_style_sake",
@@ -1197,7 +1397,7 @@
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_10.jpg",
-        "colours": "Purple, Black"
+        "colours": "Black"
     },
     {
         "brand": "for_style_sake",
@@ -1207,11 +1407,6 @@
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_12.jpg",
-        "colours": "White"
-    },
-    {
-        "brand": "for_style_sake",
-        "image": "for_style_sake_14.jpg",
         "colours": "Cream/Khaki/Beige"
     },
     {
@@ -1222,22 +1417,22 @@
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_17.jpg",
-        "colours": "Green, Cream/Khaki/Beige"
+        "colours": "Green"
     },
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_19.jpg",
-        "colours": "Brown"
+        "colours": "Cream/Khaki/Beige, Brown"
     },
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_2.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_21.jpg",
-        "colours": "Green, Black"
+        "colours": "Black"
     },
     {
         "brand": "for_style_sake",
@@ -1247,7 +1442,7 @@
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_23.jpg",
-        "colours": "Purple"
+        "colours": "Black, Purple"
     },
     {
         "brand": "for_style_sake",
@@ -1272,12 +1467,12 @@
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_31.jpg",
-        "colours": "Blue"
+        "colours": "Red, Blue"
     },
     {
         "brand": "for_style_sake",
         "image": "for_style_sake_4.jpg",
-        "colours": "Green"
+        "colours": "Green, Black"
     },
     {
         "brand": "for_style_sake",
@@ -1286,18 +1481,13 @@
     },
     {
         "brand": "for_style_sake",
-        "image": "for_style_sake_7.jpg",
-        "colours": "Purple"
-    },
-    {
-        "brand": "for_style_sake",
         "image": "for_style_sake_9.jpg",
-        "colours": "Grey"
+        "colours": "Green"
     },
     {
         "brand": "fruche",
         "image": "fruche_1.jpg",
-        "colours": "Pink, White"
+        "colours": "White"
     },
     {
         "brand": "fruche",
@@ -1307,7 +1497,7 @@
     {
         "brand": "fruche",
         "image": "fruche_12.jpg",
-        "colours": "Grey"
+        "colours": "Black, Grey"
     },
     {
         "brand": "fruche",
@@ -1317,7 +1507,7 @@
     {
         "brand": "fruche",
         "image": "fruche_14.jpg",
-        "colours": "Grey, Blue"
+        "colours": "Grey"
     },
     {
         "brand": "fruche",
@@ -1327,17 +1517,17 @@
     {
         "brand": "fruche",
         "image": "fruche_17.jpg",
-        "colours": "Grey"
+        "colours": "Black"
     },
     {
         "brand": "fruche",
         "image": "fruche_18.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "fruche",
         "image": "fruche_2.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "fruche",
@@ -1347,7 +1537,7 @@
     {
         "brand": "fruche",
         "image": "fruche_22.jpg",
-        "colours": "Grey, Blue"
+        "colours": "Grey"
     },
     {
         "brand": "fruche",
@@ -1367,17 +1557,12 @@
     {
         "brand": "fruche",
         "image": "fruche_26.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "fruche",
         "image": "fruche_27.jpg",
         "colours": "Black"
-    },
-    {
-        "brand": "fruche",
-        "image": "fruche_28.jpg",
-        "colours": "Black, Grey"
     },
     {
         "brand": "fruche",
@@ -1387,7 +1572,7 @@
     {
         "brand": "fruche",
         "image": "fruche_3.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Purple, Blue"
     },
     {
         "brand": "fruche",
@@ -1402,17 +1587,17 @@
     {
         "brand": "fruche",
         "image": "fruche_4.jpg",
-        "colours": "Blue"
+        "colours": "Grey, Blue"
     },
     {
         "brand": "fruche",
         "image": "fruche_5.jpg",
-        "colours": "Red"
+        "colours": "Red, Brown"
     },
     {
         "brand": "fruche",
         "image": "fruche_6.jpg",
-        "colours": "Red, Purple"
+        "colours": "Purple, Brown"
     },
     {
         "brand": "fruche",
@@ -1427,7 +1612,97 @@
     {
         "brand": "fruche",
         "image": "fruche_9.jpg",
+        "colours": "Purple, Brown"
+    },
+    {
+        "brand": "garbe",
+        "image": "1-GARBE-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "garbe",
+        "image": "10-GARBE-LagosFW2025.jpg",
+        "colours": "White, Blue"
+    },
+    {
+        "brand": "garbe",
+        "image": "12-GARBE-LagosFW2025.jpg",
+        "colours": "Grey"
+    },
+    {
+        "brand": "garbe",
+        "image": "14-GARBE-LagosFW2025.jpg",
+        "colours": "Green"
+    },
+    {
+        "brand": "garbe",
+        "image": "17-GARBE-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "garbe",
+        "image": "19-GARBE-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "garbe",
+        "image": "2-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "garbe",
+        "image": "22-GARBE-LagosFW2025.jpg",
+        "colours": "Brown"
+    },
+    {
+        "brand": "garbe",
+        "image": "24-GARBE-LagosFW2025.jpg",
+        "colours": "Brown"
+    },
+    {
+        "brand": "garbe",
+        "image": "25-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "garbe",
+        "image": "26-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "garbe",
+        "image": "31-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "garbe",
+        "image": "33-GARBE-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "garbe",
+        "image": "35-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "garbe",
+        "image": "4-GARBE-LagosFW2025.jpg",
         "colours": "Red"
+    },
+    {
+        "brand": "garbe",
+        "image": "7-GARBE-LagosFW2025.jpg",
+        "colours": "Yellow, Orange"
+    },
+    {
+        "brand": "garbe",
+        "image": "8-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "garbe",
+        "image": "9-GARBE-LagosFW2025.jpg",
+        "colours": "Black"
     },
     {
         "brand": "hawa_paris",
@@ -1442,12 +1717,17 @@
     {
         "brand": "hawa_paris",
         "image": "hawa_paris_11.jpg",
-        "colours": "Blue"
+        "colours": "Black, Purple"
+    },
+    {
+        "brand": "hawa_paris",
+        "image": "hawa_paris_12.jpg",
+        "colours": "Black"
     },
     {
         "brand": "hawa_paris",
         "image": "hawa_paris_13.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "hawa_paris",
@@ -1491,6 +1771,11 @@
     },
     {
         "brand": "hawa_paris",
+        "image": "hawa_paris_27.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "hawa_paris",
         "image": "hawa_paris_28.jpg",
         "colours": "Blue"
     },
@@ -1502,12 +1787,17 @@
     {
         "brand": "hawa_paris",
         "image": "hawa_paris_3.jpg",
-        "colours": "Pink"
+        "colours": "Grey"
     },
     {
         "brand": "hawa_paris",
         "image": "hawa_paris_30.jpg",
         "colours": "White"
+    },
+    {
+        "brand": "hawa_paris",
+        "image": "hawa_paris_31.jpg",
+        "colours": "Black"
     },
     {
         "brand": "hawa_paris",
@@ -1522,7 +1812,7 @@
     {
         "brand": "hawa_paris",
         "image": "hawa_paris_5.jpg",
-        "colours": "Pink, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "hawa_paris",
@@ -1531,23 +1821,23 @@
     },
     {
         "brand": "hawa_paris",
-        "image": "hawa_paris_8.jpg",
+        "image": "hawa_paris_9.jpg",
         "colours": "Black"
     },
     {
-        "brand": "hawa_paris",
-        "image": "hawa_paris_9.jpg",
-        "colours": "Black, Grey"
+        "brand": "hertunba",
+        "image": "hertunba_1.jpg",
+        "colours": "Black, Blue"
     },
     {
         "brand": "hertunba",
         "image": "hertunba_10.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "hertunba",
         "image": "hertunba_12.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "hertunba",
@@ -1557,12 +1847,12 @@
     {
         "brand": "hertunba",
         "image": "hertunba_15.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "hertunba",
         "image": "hertunba_16.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "hertunba",
@@ -1582,12 +1872,12 @@
     {
         "brand": "hertunba",
         "image": "hertunba_22.jpg",
-        "colours": "Black, Blue"
+        "colours": "Grey"
     },
     {
         "brand": "hertunba",
         "image": "hertunba_24.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "hertunba",
@@ -1607,16 +1897,11 @@
     {
         "brand": "hertunba",
         "image": "hertunba_29.jpg",
-        "colours": "Purple, Cream/Khaki/Beige"
+        "colours": "White, Blue"
     },
     {
         "brand": "hertunba",
         "image": "hertunba_30.jpg",
-        "colours": "Black"
-    },
-    {
-        "brand": "hertunba",
-        "image": "hertunba_31.jpg",
         "colours": "Black"
     },
     {
@@ -1627,7 +1912,7 @@
     {
         "brand": "hertunba",
         "image": "hertunba_33.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "hertunba",
@@ -1645,14 +1930,14 @@
         "colours": "Cream/Khaki/Beige"
     },
     {
-        "brand": "ibilola_ogundipe",
-        "image": "ibilola_ogundipe_11.jpg",
-        "colours": "Blue"
+        "brand": "hertunba",
+        "image": "hertunba_8.jpg",
+        "colours": "Black, Grey"
     },
     {
         "brand": "ibilola_ogundipe",
         "image": "ibilola_ogundipe_13.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "ibilola_ogundipe",
@@ -1677,27 +1962,22 @@
     {
         "brand": "ibilola_ogundipe",
         "image": "ibilola_ogundipe_18.jpg",
-        "colours": "Red, Orange"
+        "colours": "Red, Brown"
     },
     {
         "brand": "ibilola_ogundipe",
         "image": "ibilola_ogundipe_19.jpg",
-        "colours": "Red, Pink"
-    },
-    {
-        "brand": "ibilola_ogundipe",
-        "image": "ibilola_ogundipe_2.jpg",
-        "colours": "Pink"
+        "colours": "Red"
     },
     {
         "brand": "ibilola_ogundipe",
         "image": "ibilola_ogundipe_20.jpg",
-        "colours": "Blue"
+        "colours": "White, Blue"
     },
     {
         "brand": "ibilola_ogundipe",
         "image": "ibilola_ogundipe_23.jpg",
-        "colours": "Red, Orange"
+        "colours": "Orange"
     },
     {
         "brand": "ibilola_ogundipe",
@@ -1717,12 +1997,12 @@
     {
         "brand": "ibilola_ogundipe",
         "image": "ibilola_ogundipe_9.jpg",
-        "colours": "White, Blue"
+        "colours": "White"
     },
     {
         "brand": "imad_eduso",
         "image": "imad_eduso_10.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "White"
     },
     {
         "brand": "imad_eduso",
@@ -1752,12 +2032,12 @@
     {
         "brand": "imad_eduso",
         "image": "imad_eduso_19.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "imad_eduso",
         "image": "imad_eduso_2.jpg",
-        "colours": "Red, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "imad_eduso",
@@ -1771,28 +2051,13 @@
     },
     {
         "brand": "imad_eduso",
-        "image": "imad_eduso_24.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "imad_eduso",
-        "image": "imad_eduso_26.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "imad_eduso",
         "image": "imad_eduso_27.jpg",
-        "colours": "Grey, White"
-    },
-    {
-        "brand": "imad_eduso",
-        "image": "imad_eduso_29.jpg",
-        "colours": "Pink"
+        "colours": "Grey, White, Cream/Khaki/Beige"
     },
     {
         "brand": "imad_eduso",
         "image": "imad_eduso_32.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "imad_eduso",
@@ -1802,22 +2067,157 @@
     {
         "brand": "imad_eduso",
         "image": "imad_eduso_5.jpg",
-        "colours": "Pink, Blue"
+        "colours": "Grey, White"
     },
     {
         "brand": "imad_eduso",
         "image": "imad_eduso_6.jpg",
-        "colours": "Purple, Pink"
+        "colours": "Grey"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "1-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black, Purple, Blue"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "10-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black, Purple"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "11-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black, Purple, Blue"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "12-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Red, Brown"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "14-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black, Purple"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "2-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black, Purple"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "3-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "4-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "6-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Yellow, Black"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "7-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Yellow"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "8-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "jermaine_bleu",
+        "image": "9-JERMAINE-BLEU-LagosFW2025.jpg",
+        "colours": "Black, Purple"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "1-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Red"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "10-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Red, Brown"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "11-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Purple, Red, Brown, Pink"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "12-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Orange"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "13-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "14-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Blue"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "15-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "16-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "17-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Red"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "2-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "White"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "4-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Yellow"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "5-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Orange, Red"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "7-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Red, Brown"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "8-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "Yellow"
+    },
+    {
+        "brand": "jewel_jamila",
+        "image": "9-JEWEL-JAMILA-LagosFW2025.jpg",
+        "colours": "White"
     },
     {
         "brand": "jzo",
         "image": "jzo_10.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "jzo",
         "image": "jzo_11.jpg",
-        "colours": "Grey"
+        "colours": "Black"
     },
     {
         "brand": "jzo",
@@ -1826,8 +2226,13 @@
     },
     {
         "brand": "jzo",
+        "image": "jzo_14.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "jzo",
         "image": "jzo_15.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "jzo",
@@ -1837,12 +2242,12 @@
     {
         "brand": "jzo",
         "image": "jzo_18.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "jzo",
         "image": "jzo_2.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "jzo",
@@ -1867,7 +2272,7 @@
     {
         "brand": "jzo",
         "image": "jzo_7.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "jzo",
@@ -1881,13 +2286,8 @@
     },
     {
         "brand": "lb_lumina",
-        "image": "lb_lumina_1.jpg",
-        "colours": "Brown"
-    },
-    {
-        "brand": "lb_lumina",
         "image": "lb_lumina_10.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "lb_lumina",
@@ -1897,42 +2297,27 @@
     {
         "brand": "lb_lumina",
         "image": "lb_lumina_12.jpg",
-        "colours": "Red, Black, Purple"
+        "colours": "Purple, Brown"
     },
     {
         "brand": "lb_lumina",
         "image": "lb_lumina_14.jpg",
-        "colours": "Red"
-    },
-    {
-        "brand": "lb_lumina",
-        "image": "lb_lumina_15.jpg",
-        "colours": "Red, Purple"
-    },
-    {
-        "brand": "lb_lumina",
-        "image": "lb_lumina_17.jpg",
-        "colours": "Pink"
+        "colours": "Red, Brown"
     },
     {
         "brand": "lb_lumina",
         "image": "lb_lumina_18.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "lb_lumina",
-        "image": "lb_lumina_2.jpg",
-        "colours": "Brown"
+        "colours": "Black"
     },
     {
         "brand": "lb_lumina",
         "image": "lb_lumina_4.jpg",
-        "colours": "Orange, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "lb_lumina",
         "image": "lb_lumina_5.jpg",
-        "colours": "Orange"
+        "colours": "Red, Orange"
     },
     {
         "brand": "lb_lumina",
@@ -1942,47 +2327,42 @@
     {
         "brand": "lb_lumina",
         "image": "lb_lumina_9.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Purple, Blue"
     },
     {
         "brand": "left_of_yaba_x_jilk",
         "image": "last_three_14.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "left_of_yaba_x_jilk",
         "image": "last_three_17.jpg",
-        "colours": "Blue"
+        "colours": "Black, Grey, Blue"
     },
     {
         "brand": "left_of_yaba_x_jilk",
         "image": "last_three_21.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "left_of_yaba_x_jilk",
         "image": "last_three_23.jpg",
-        "colours": "Grey, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "left_of_yaba_x_jilk",
         "image": "last_three_29.jpg",
-        "colours": "Blue"
+        "colours": "Grey, Blue"
     },
     {
         "brand": "lfj",
         "image": "lfj_1.jpg",
-        "colours": "White, Blue"
+        "colours": "White"
     },
     {
         "brand": "lfj",
         "image": "lfj_10.jpg",
         "colours": "Green, Grey"
-    },
-    {
-        "brand": "lfj",
-        "image": "lfj_11.jpg",
-        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lfj",
@@ -1992,17 +2372,12 @@
     {
         "brand": "lfj",
         "image": "lfj_14.jpg",
-        "colours": "Pink, Cream/Khaki/Beige"
-    },
-    {
-        "brand": "lfj",
-        "image": "lfj_15.jpg",
-        "colours": "Pink, Grey"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lfj",
         "image": "lfj_16.jpg",
-        "colours": "Grey, Blue"
+        "colours": "Grey"
     },
     {
         "brand": "lfj",
@@ -2011,23 +2386,13 @@
     },
     {
         "brand": "lfj",
-        "image": "lfj_18.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "lfj",
         "image": "lfj_19.jpg",
         "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lfj",
-        "image": "lfj_2.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "lfj",
         "image": "lfj_20.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "lfj",
@@ -2057,12 +2422,12 @@
     {
         "brand": "lfj",
         "image": "lfj_28.jpg",
-        "colours": "Blue"
+        "colours": "White, Blue"
     },
     {
         "brand": "lfj",
         "image": "lfj_29.jpg",
-        "colours": "Blue"
+        "colours": "White, Blue"
     },
     {
         "brand": "lfj",
@@ -2072,7 +2437,7 @@
     {
         "brand": "lfj",
         "image": "lfj_32.jpg",
-        "colours": "Red, Black"
+        "colours": "Black, Red"
     },
     {
         "brand": "lfj",
@@ -2082,22 +2447,22 @@
     {
         "brand": "lfj",
         "image": "lfj_34.jpg",
-        "colours": "Yellow, Purple, Blue"
-    },
-    {
-        "brand": "lfj",
-        "image": "lfj_4.jpg",
-        "colours": "Pink, White"
-    },
-    {
-        "brand": "lfj",
-        "image": "lfj_5.jpg",
         "colours": "Yellow"
     },
     {
         "brand": "lfj",
-        "image": "lfj_7.jpg",
+        "image": "lfj_4.jpg",
+        "colours": "Grey, White"
+    },
+    {
+        "brand": "lfj",
+        "image": "lfj_5.jpg",
         "colours": "Yellow, Cream/Khaki/Beige"
+    },
+    {
+        "brand": "lfj",
+        "image": "lfj_7.jpg",
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lfj",
@@ -2107,12 +2472,12 @@
     {
         "brand": "lfj",
         "image": "lfj_9.jpg",
-        "colours": "Grey, White, Blue"
+        "colours": "White"
     },
     {
         "brand": "lila_bare",
         "image": "lila_bare_1.jpg",
-        "colours": "Red, Orange, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "lila_bare",
@@ -2136,16 +2501,6 @@
     },
     {
         "brand": "lila_bare",
-        "image": "lila_bare_17.jpg",
-        "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "lila_bare",
-        "image": "lila_bare_19.jpg",
-        "colours": "Brown"
-    },
-    {
-        "brand": "lila_bare",
         "image": "lila_bare_2.jpg",
         "colours": "Cream/Khaki/Beige"
     },
@@ -2157,7 +2512,7 @@
     {
         "brand": "lila_bare",
         "image": "lila_bare_22.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lila_bare",
@@ -2166,38 +2521,28 @@
     },
     {
         "brand": "lila_bare",
-        "image": "lila_bare_24.jpg",
-        "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "lila_bare",
         "image": "lila_bare_25.jpg",
-        "colours": "Red, Orange"
+        "colours": "Brown"
     },
     {
         "brand": "lila_bare",
         "image": "lila_bare_28.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "lila_bare",
         "image": "lila_bare_3.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "lila_bare",
         "image": "lila_bare_30.jpg",
-        "colours": "Orange"
+        "colours": "Brown"
     },
     {
         "brand": "lila_bare",
         "image": "lila_bare_32.jpg",
-        "colours": "Cream/Khaki/Beige, White"
-    },
-    {
-        "brand": "lila_bare",
-        "image": "lila_bare_33.jpg",
-        "colours": "Orange"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lila_bare",
@@ -2212,21 +2557,16 @@
     {
         "brand": "lila_bare",
         "image": "lila_bare_37.jpg",
-        "colours": "Cream/Khaki/Beige, White"
-    },
-    {
-        "brand": "lila_bare",
-        "image": "lila_bare_5.jpg",
-        "colours": "Orange"
-    },
-    {
-        "brand": "lila_bare",
-        "image": "lila_bare_7.jpg",
         "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "lila_bare",
-        "image": "lila_bare_8.jpg",
+        "image": "lila_bare_5.jpg",
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "lila_bare",
+        "image": "lila_bare_7.jpg",
         "colours": "Cream/Khaki/Beige"
     },
     {
@@ -2241,6 +2581,11 @@
     },
     {
         "brand": "maison_alulla",
+        "image": "maison_alulla_12.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "maison_alulla",
         "image": "maison_alulla_13.jpg",
         "colours": "White"
     },
@@ -2252,7 +2597,7 @@
     {
         "brand": "maison_alulla",
         "image": "maison_alulla_15.jpg",
-        "colours": "Blue"
+        "colours": "Grey, Blue"
     },
     {
         "brand": "maison_alulla",
@@ -2287,22 +2632,17 @@
     {
         "brand": "maison_alulla",
         "image": "maison_alulla_21.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "maison_alulla",
         "image": "maison_alulla_22.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "maison_alulla",
-        "image": "maison_alulla_23.jpg",
-        "colours": "Pink, White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "maison_alulla",
         "image": "maison_alulla_24.jpg",
-        "colours": "Purple"
+        "colours": "Black"
     },
     {
         "brand": "maison_alulla",
@@ -2321,18 +2661,13 @@
     },
     {
         "brand": "maison_alulla",
-        "image": "maison_alulla_6.jpg",
-        "colours": "Grey, White"
-    },
-    {
-        "brand": "maison_alulla",
         "image": "maison_alulla_7.jpg",
         "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "maison_alulla",
         "image": "maison_alulla_8.jpg",
-        "colours": "White"
+        "colours": "Grey, Cream/Khaki/Beige"
     },
     {
         "brand": "maison_alulla",
@@ -2342,12 +2677,12 @@
     {
         "brand": "maxjenny",
         "image": "maxjenny_1.jpg",
-        "colours": "Red"
+        "colours": "Red, Pink"
     },
     {
         "brand": "maxjenny",
         "image": "maxjenny_2.jpg",
-        "colours": "Red, Pink"
+        "colours": "Pink"
     },
     {
         "brand": "maxjenny",
@@ -2357,36 +2692,41 @@
     {
         "brand": "maxjenny",
         "image": "maxjenny_4.jpg",
-        "colours": "Black, Grey"
-    },
-    {
-        "brand": "mot_the_label",
-        "image": "mot_the_label_10.jpg",
-        "colours": "Red, Pink"
-    },
-    {
-        "brand": "mot_the_label",
-        "image": "mot_the_label_11.jpg",
         "colours": "Black"
     },
     {
         "brand": "mot_the_label",
+        "image": "mot_the_label_10.jpg",
+        "colours": "Red, Brown, Pink"
+    },
+    {
+        "brand": "mot_the_label",
+        "image": "mot_the_label_11.jpg",
+        "colours": "Purple"
+    },
+    {
+        "brand": "mot_the_label",
         "image": "mot_the_label_12.jpg",
-        "colours": "Purple, Black"
+        "colours": "Black"
     },
     {
         "brand": "mot_the_label",
         "image": "mot_the_label_13.jpg",
-        "colours": "Red, Black"
+        "colours": "Purple, Brown"
     },
     {
         "brand": "mot_the_label",
-        "image": "mot_the_label_14.jpg",
+        "image": "mot_the_label_16.jpg",
         "colours": "Brown"
     },
     {
         "brand": "mot_the_label",
         "image": "mot_the_label_17.jpg",
+        "colours": "White"
+    },
+    {
+        "brand": "mot_the_label",
+        "image": "mot_the_label_19.jpg",
         "colours": "Cream/Khaki/Beige"
     },
     {
@@ -2401,8 +2741,13 @@
     },
     {
         "brand": "mot_the_label",
+        "image": "mot_the_label_4.jpg",
+        "colours": "Purple"
+    },
+    {
+        "brand": "mot_the_label",
         "image": "mot_the_label_5.jpg",
-        "colours": "Black, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "mot_the_label",
@@ -2417,17 +2762,17 @@
     {
         "brand": "mot_the_label",
         "image": "mot_the_label_8.jpg",
-        "colours": "Brown"
+        "colours": "Grey"
     },
     {
         "brand": "mot_the_label",
         "image": "mot_the_label_9.jpg",
-        "colours": "Black, Brown"
+        "colours": "Black"
     },
     {
         "brand": "ndiiche_x_sinae",
         "image": "last_three_35.jpg",
-        "colours": "Red, Purple"
+        "colours": "Red, Brown"
     },
     {
         "brand": "ndiiche_x_sinae",
@@ -2442,12 +2787,57 @@
     {
         "brand": "ndiiche_x_sinae",
         "image": "last_three_46.jpg",
-        "colours": "Red, Black"
+        "colours": "Black, Red"
     },
     {
         "brand": "ndiiche_x_sinae",
         "image": "last_three_50.jpg",
-        "colours": "Purple"
+        "colours": "Black, Purple"
+    },
+    {
+        "brand": "nivea",
+        "image": "10-NIVEA-LagosFW2025.jpg",
+        "colours": "Black, White"
+    },
+    {
+        "brand": "nivea",
+        "image": "2-NIVEA-LagosFW2025.jpg",
+        "colours": "Black, Grey, White"
+    },
+    {
+        "brand": "nivea",
+        "image": "3-NIVEA-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "nivea",
+        "image": "4-NIVEA-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "nivea",
+        "image": "5-NIVEA-LagosFW2025.jpg",
+        "colours": "Black"
+    },
+    {
+        "brand": "nivea",
+        "image": "6-NIVEA-LagosFW2025.jpg",
+        "colours": "White"
+    },
+    {
+        "brand": "nivea",
+        "image": "7-NIVEA-LagosFW2025.jpg",
+        "colours": "Black, White"
+    },
+    {
+        "brand": "nivea",
+        "image": "8-NIVEA-LagosFW2025.jpg",
+        "colours": "White"
+    },
+    {
+        "brand": "nivea",
+        "image": "9-NIVEA-LagosFW2025.jpg",
+        "colours": "Black, White"
     },
     {
         "brand": "nkwo",
@@ -2457,7 +2847,7 @@
     {
         "brand": "nkwo",
         "image": "nkwo_11.jpg",
-        "colours": "Grey, White"
+        "colours": "Grey"
     },
     {
         "brand": "nkwo",
@@ -2467,7 +2857,7 @@
     {
         "brand": "nkwo",
         "image": "nkwo_13.jpg",
-        "colours": "Red"
+        "colours": "Red, Cream/Khaki/Beige"
     },
     {
         "brand": "nkwo",
@@ -2477,7 +2867,7 @@
     {
         "brand": "nkwo",
         "image": "nkwo_16.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "Black"
     },
     {
         "brand": "nkwo",
@@ -2492,7 +2882,7 @@
     {
         "brand": "nkwo",
         "image": "nkwo_19.jpg",
-        "colours": "Black, Blue"
+        "colours": "Black"
     },
     {
         "brand": "nkwo",
@@ -2502,7 +2892,7 @@
     {
         "brand": "nkwo",
         "image": "nkwo_20.jpg",
-        "colours": "Orange, Cream/Khaki/Beige"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "nkwo",
@@ -2517,7 +2907,7 @@
     {
         "brand": "nkwo",
         "image": "nkwo_5.jpg",
-        "colours": "Black, Purple"
+        "colours": "Black, Purple, Blue"
     },
     {
         "brand": "nkwo",
@@ -2532,12 +2922,12 @@
     {
         "brand": "nkwo",
         "image": "nkwo_8.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "nkwo",
         "image": "nkwo_9.jpg",
-        "colours": "Blue"
+        "colours": "Grey"
     },
     {
         "brand": "nya",
@@ -2567,7 +2957,7 @@
     {
         "brand": "nya",
         "image": "nya_15.jpg",
-        "colours": "Green, Grey"
+        "colours": "Green"
     },
     {
         "brand": "nya",
@@ -2582,7 +2972,7 @@
     {
         "brand": "nya",
         "image": "nya_18.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "nya",
@@ -2617,22 +3007,22 @@
     {
         "brand": "nya",
         "image": "nya_28.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "nya",
         "image": "nya_29.jpg",
-        "colours": "Purple, White, Blue"
+        "colours": "White, Purple, Blue"
     },
     {
         "brand": "nya",
         "image": "nya_30.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Purple, Blue"
     },
     {
         "brand": "nya",
         "image": "nya_31.jpg",
-        "colours": "Pink, Cream/Khaki/Beige"
+        "colours": "Grey"
     },
     {
         "brand": "nya",
@@ -2672,7 +3062,7 @@
     {
         "brand": "olooh",
         "image": "olooh_10.jpg",
-        "colours": "Red"
+        "colours": "Brown"
     },
     {
         "brand": "olooh",
@@ -2712,7 +3102,7 @@
     {
         "brand": "olooh",
         "image": "olooh_4.jpg",
-        "colours": "Black, Grey"
+        "colours": "Grey"
     },
     {
         "brand": "olooh",
@@ -2727,7 +3117,7 @@
     {
         "brand": "olooh",
         "image": "olooh_7.jpg",
-        "colours": "Red, Orange"
+        "colours": "Orange, Red"
     },
     {
         "brand": "olooh",
@@ -2741,23 +3131,18 @@
     },
     {
         "brand": "oshobor",
-        "image": "oshobor_10.jpg",
-        "colours": "Grey"
-    },
-    {
-        "brand": "oshobor",
         "image": "oshobor_11.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "oshobor",
         "image": "oshobor_12.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "oshobor",
         "image": "oshobor_13.jpg",
-        "colours": "Orange"
+        "colours": "Yellow"
     },
     {
         "brand": "oshobor",
@@ -2786,11 +3171,6 @@
     },
     {
         "brand": "oshobor",
-        "image": "oshobor_19.jpg",
-        "colours": "Red, Black, Grey"
-    },
-    {
-        "brand": "oshobor",
         "image": "oshobor_2.jpg",
         "colours": "Black, Blue"
     },
@@ -2807,7 +3187,7 @@
     {
         "brand": "oshobor",
         "image": "oshobor_22.jpg",
-        "colours": "Black"
+        "colours": "Black, Grey"
     },
     {
         "brand": "oshobor",
@@ -2816,18 +3196,13 @@
     },
     {
         "brand": "oshobor",
-        "image": "oshobor_24.jpg",
+        "image": "oshobor_25.jpg",
         "colours": "Black"
     },
     {
         "brand": "oshobor",
-        "image": "oshobor_25.jpg",
-        "colours": "Black, Grey"
-    },
-    {
-        "brand": "oshobor",
         "image": "oshobor_3.jpg",
-        "colours": "White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "oshobor",
@@ -2842,7 +3217,7 @@
     {
         "brand": "oshobor",
         "image": "oshobor_6.jpg",
-        "colours": "Orange"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "oshobor",
@@ -2852,7 +3227,7 @@
     {
         "brand": "oshobor",
         "image": "oshobor_8.jpg",
-        "colours": "Blue"
+        "colours": "Black, Blue"
     },
     {
         "brand": "oshobor",
@@ -2862,12 +3237,12 @@
     {
         "brand": "pepperrow",
         "image": "pepperrow_10.jpg",
-        "colours": "White, Blue"
+        "colours": "White"
     },
     {
         "brand": "pepperrow",
         "image": "pepperrow_11.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "pepperrow",
@@ -2882,7 +3257,7 @@
     {
         "brand": "pepperrow",
         "image": "pepperrow_15.jpg",
-        "colours": "Purple, Blue"
+        "colours": "Black, Purple, Blue"
     },
     {
         "brand": "pepperrow",
@@ -2892,7 +3267,7 @@
     {
         "brand": "pepperrow",
         "image": "pepperrow_18.jpg",
-        "colours": "Brown, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "pepperrow",
@@ -2902,7 +3277,7 @@
     {
         "brand": "pepperrow",
         "image": "pepperrow_20.jpg",
-        "colours": "Black"
+        "colours": "Black, Grey"
     },
     {
         "brand": "pepperrow",
@@ -2912,12 +3287,12 @@
     {
         "brand": "pepperrow",
         "image": "pepperrow_22.jpg",
-        "colours": "White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "pepperrow",
         "image": "pepperrow_25.jpg",
-        "colours": "Black, Pink, White"
+        "colours": "Grey, White"
     },
     {
         "brand": "pepperrow",
@@ -2927,32 +3302,27 @@
     {
         "brand": "pepperrow",
         "image": "pepperrow_27.jpg",
-        "colours": "Grey, Cream/Khaki/Beige"
+        "colours": "Grey"
     },
     {
         "brand": "pepperrow",
         "image": "pepperrow_29.jpg",
-        "colours": "Pink"
+        "colours": "Cream/Khaki/Beige"
+    },
+    {
+        "brand": "pepperrow",
+        "image": "pepperrow_31.jpg",
+        "colours": "Grey"
     },
     {
         "brand": "pepperrow",
         "image": "pepperrow_32.jpg",
-        "colours": "Pink"
+        "colours": "Grey, White"
     },
     {
         "brand": "pepperrow",
         "image": "pepperrow_4.jpg",
         "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "pepperrow",
-        "image": "pepperrow_5.jpg",
-        "colours": "Pink"
-    },
-    {
-        "brand": "pepperrow",
-        "image": "pepperrow_7.jpg",
-        "colours": "Brown"
     },
     {
         "brand": "pepperrow",
@@ -2967,7 +3337,7 @@
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_11.jpg",
-        "colours": "Brown, Cream/Khaki/Beige"
+        "colours": "Brown"
     },
     {
         "brand": "pettre_taylor",
@@ -2982,17 +3352,12 @@
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_17.jpg",
-        "colours": "Grey, White"
-    },
-    {
-        "brand": "pettre_taylor",
-        "image": "pettre_taylor_18.jpg",
-        "colours": "Black, Brown"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_2.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "pettre_taylor",
@@ -3002,12 +3367,12 @@
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_21.jpg",
-        "colours": "Pink"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_23.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "pettre_taylor",
@@ -3022,17 +3387,12 @@
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_26.jpg",
-        "colours": "Yellow"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_27.jpg",
         "colours": "Grey"
-    },
-    {
-        "brand": "pettre_taylor",
-        "image": "pettre_taylor_28.jpg",
-        "colours": "Grey, White"
     },
     {
         "brand": "pettre_taylor",
@@ -3047,17 +3407,12 @@
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_4.jpg",
-        "colours": "Grey, Cream/Khaki/Beige, White"
+        "colours": "Grey, Cream/Khaki/Beige"
     },
     {
         "brand": "pettre_taylor",
         "image": "pettre_taylor_6.jpg",
-        "colours": "White"
-    },
-    {
-        "brand": "pettre_taylor",
-        "image": "pettre_taylor_8.jpg",
-        "colours": "Pink"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "pettre_taylor",
@@ -3067,12 +3422,12 @@
     {
         "brand": "rendoll",
         "image": "rendoll_1.jpg",
-        "colours": "Green, Blue"
+        "colours": "Green, Grey, Blue"
     },
     {
         "brand": "rendoll",
         "image": "rendoll_10.jpg",
-        "colours": "Yellow, White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "rendoll",
@@ -3091,23 +3446,18 @@
     },
     {
         "brand": "rendoll",
-        "image": "rendoll_14.jpg",
+        "image": "rendoll_15.jpg",
         "colours": "Blue"
     },
     {
         "brand": "rendoll",
-        "image": "rendoll_15.jpg",
-        "colours": "Purple, Blue"
+        "image": "rendoll_16.jpg",
+        "colours": "Black"
     },
     {
         "brand": "rendoll",
         "image": "rendoll_17.jpg",
-        "colours": "Red"
-    },
-    {
-        "brand": "rendoll",
-        "image": "rendoll_18.jpg",
-        "colours": "Pink"
+        "colours": "Red, Pink"
     },
     {
         "brand": "rendoll",
@@ -3117,7 +3467,7 @@
     {
         "brand": "rendoll",
         "image": "rendoll_3.jpg",
-        "colours": "Green, Grey"
+        "colours": "Green, Blue"
     },
     {
         "brand": "rendoll",
@@ -3131,8 +3481,13 @@
     },
     {
         "brand": "rendoll",
+        "image": "rendoll_6.jpg",
+        "colours": "Black, Grey"
+    },
+    {
+        "brand": "rendoll",
         "image": "rendoll_7.jpg",
-        "colours": "Grey"
+        "colours": "Black, Grey"
     },
     {
         "brand": "rendoll",
@@ -3142,27 +3497,27 @@
     {
         "brand": "rendoll",
         "image": "rendoll_9.jpg",
-        "colours": "Yellow, White"
+        "colours": "White"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_1.jpg",
-        "colours": "Red, White"
+        "colours": "White, Red"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_10.jpg",
-        "colours": "Red, Pink"
+        "colours": "Red"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_11.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_12.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "revival_london",
@@ -3172,27 +3527,27 @@
     {
         "brand": "revival_london",
         "image": "revival_london_6.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_7.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_8.jpg",
-        "colours": "Grey, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "revival_london",
         "image": "revival_london_9.jpg",
-        "colours": "White"
+        "colours": "Grey, White"
     },
     {
         "brand": "sahrazad",
         "image": "sahrazad_1.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "sahrazad",
@@ -3212,7 +3567,7 @@
     {
         "brand": "sahrazad",
         "image": "sahrazad_14.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "sahrazad",
@@ -3227,17 +3582,17 @@
     {
         "brand": "sahrazad",
         "image": "sahrazad_17.jpg",
-        "colours": "White"
+        "colours": "Grey, White"
     },
     {
         "brand": "sahrazad",
         "image": "sahrazad_2.jpg",
-        "colours": "Red, Purple"
+        "colours": "Purple"
     },
     {
         "brand": "sahrazad",
         "image": "sahrazad_3.jpg",
-        "colours": "Red, Black, Purple"
+        "colours": "Purple"
     },
     {
         "brand": "sahrazad",
@@ -3247,7 +3602,7 @@
     {
         "brand": "sahrazad",
         "image": "sahrazad_5.jpg",
-        "colours": "Grey, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "sahrazad",
@@ -3261,18 +3616,18 @@
     },
     {
         "brand": "sahrazad",
+        "image": "sahrazad_8.jpg",
+        "colours": "Brown"
+    },
+    {
+        "brand": "sahrazad",
         "image": "sahrazad_9.jpg",
-        "colours": "Black, Purple"
+        "colours": "Brown"
     },
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_11.jpg",
-        "colours": "Grey, White"
-    },
-    {
-        "brand": "sevon_dejana",
-        "image": "sevon_dejana_15.jpg",
-        "colours": "Grey, Cream/Khaki/Beige"
+        "colours": "White"
     },
     {
         "brand": "sevon_dejana",
@@ -3282,32 +3637,27 @@
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_20.jpg",
-        "colours": "Grey, Blue"
+        "colours": "Grey"
     },
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_21.jpg",
-        "colours": "Purple, Black"
+        "colours": "Black, Purple"
     },
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_22.jpg",
-        "colours": "Pink, Orange, Brown"
+        "colours": "Brown"
     },
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_23.jpg",
-        "colours": "White"
+        "colours": "Grey, White"
     },
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_25.jpg",
         "colours": "Black, Cream/Khaki/Beige"
-    },
-    {
-        "brand": "sevon_dejana",
-        "image": "sevon_dejana_26.jpg",
-        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "sevon_dejana",
@@ -3337,22 +3687,12 @@
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_6.jpg",
-        "colours": "Grey, White"
+        "colours": "White"
     },
     {
         "brand": "sevon_dejana",
         "image": "sevon_dejana_8.jpg",
         "colours": "White"
-    },
-    {
-        "brand": "sevon_dejana",
-        "image": "sevon_dejana_9.jpg",
-        "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "street_souk",
-        "image": "street_souk_1.jpg",
-        "colours": "Green, Grey"
     },
     {
         "brand": "street_souk",
@@ -3362,7 +3702,7 @@
     {
         "brand": "street_souk",
         "image": "street_souk_12.jpg",
-        "colours": "Blue"
+        "colours": "Grey, Blue"
     },
     {
         "brand": "street_souk",
@@ -3376,16 +3716,6 @@
     },
     {
         "brand": "street_souk",
-        "image": "street_souk_16.jpg",
-        "colours": "Cream/Khaki/Beige"
-    },
-    {
-        "brand": "street_souk",
-        "image": "street_souk_17.jpg",
-        "colours": "Grey, Brown"
-    },
-    {
-        "brand": "street_souk",
         "image": "street_souk_2.jpg",
         "colours": "Black"
     },
@@ -3396,23 +3726,13 @@
     },
     {
         "brand": "street_souk",
-        "image": "street_souk_4.jpg",
-        "colours": "Brown"
-    },
-    {
-        "brand": "street_souk",
         "image": "street_souk_6.jpg",
-        "colours": "Black, Grey"
+        "colours": "Brown"
     },
     {
         "brand": "street_souk",
         "image": "street_souk_7.jpg",
         "colours": "White"
-    },
-    {
-        "brand": "street_souk",
-        "image": "street_souk_9.jpg",
-        "colours": "Grey"
     },
     {
         "brand": "studio_imo",
@@ -3442,7 +3762,7 @@
     {
         "brand": "studio_imo",
         "image": "studio_imo_19.jpg",
-        "colours": "Purple"
+        "colours": "Black"
     },
     {
         "brand": "studio_imo",
@@ -3457,22 +3777,22 @@
     {
         "brand": "studio_imo",
         "image": "studio_imo_21.jpg",
-        "colours": "Green, Grey, Blue"
+        "colours": "Green, Grey"
     },
     {
         "brand": "studio_imo",
         "image": "studio_imo_22.jpg",
-        "colours": "Grey"
+        "colours": "Black, Grey"
     },
     {
         "brand": "studio_imo",
         "image": "studio_imo_23.jpg",
-        "colours": "Green, Yellow"
+        "colours": "Green"
     },
     {
         "brand": "studio_imo",
-        "image": "studio_imo_24.jpg",
-        "colours": "Grey"
+        "image": "studio_imo_25.jpg",
+        "colours": "Purple"
     },
     {
         "brand": "studio_imo",
@@ -3482,7 +3802,7 @@
     {
         "brand": "studio_imo",
         "image": "studio_imo_28.jpg",
-        "colours": "Red, Pink"
+        "colours": "Red"
     },
     {
         "brand": "studio_imo",
@@ -3492,12 +3812,7 @@
     {
         "brand": "studio_imo",
         "image": "studio_imo_30.jpg",
-        "colours": "Purple, Pink"
-    },
-    {
-        "brand": "studio_imo",
-        "image": "studio_imo_4.jpg",
-        "colours": "Blue"
+        "colours": "Purple"
     },
     {
         "brand": "studio_imo",
@@ -3522,12 +3837,12 @@
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_13.jpg",
-        "colours": "Grey, Blue"
+        "colours": "Black, White"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_14.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "the_or_foundation",
@@ -3537,17 +3852,17 @@
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_16.jpg",
-        "colours": "Pink"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_17.jpg",
-        "colours": "Grey, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "the_or_foundation",
-        "image": "the_or_foundation_18.jpg",
-        "colours": "Pink, White"
+        "image": "the_or_foundation_2.jpg",
+        "colours": "Grey"
     },
     {
         "brand": "the_or_foundation",
@@ -3562,32 +3877,32 @@
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_25.jpg",
-        "colours": "Purple, White"
+        "colours": "White"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_26.jpg",
-        "colours": "White, Blue"
+        "colours": "White"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_27.jpg",
-        "colours": "Purple"
+        "colours": "White"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_29.jpg",
-        "colours": "Purple, White, Blue"
+        "colours": "White"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_3.jpg",
-        "colours": "Blue"
+        "colours": "Grey"
     },
     {
         "brand": "the_or_foundation",
         "image": "the_or_foundation_4.jpg",
-        "colours": "Grey, Brown"
+        "colours": "Grey"
     },
     {
         "brand": "the_or_foundation",
@@ -3596,33 +3911,23 @@
     },
     {
         "brand": "the_or_foundation",
-        "image": "the_or_foundation_7.jpg",
-        "colours": "Grey"
-    },
-    {
-        "brand": "the_or_foundation",
         "image": "the_or_foundation_8.jpg",
-        "colours": "Blue"
+        "colours": "Grey, Blue"
     },
     {
         "brand": "wote",
         "image": "wote_1.jpg",
-        "colours": "Yellow, Grey, Cream/Khaki/Beige"
-    },
-    {
-        "brand": "wote",
-        "image": "wote_10.jpg",
-        "colours": "Grey"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "wote",
         "image": "wote_11.jpg",
-        "colours": "Yellow"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "wote",
         "image": "wote_12.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "wote",
@@ -3632,22 +3937,22 @@
     {
         "brand": "wote",
         "image": "wote_15.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "wote",
         "image": "wote_16.jpg",
-        "colours": "Grey, Blue"
-    },
-    {
-        "brand": "wote",
-        "image": "wote_17.jpg",
         "colours": "Blue"
     },
     {
         "brand": "wote",
+        "image": "wote_17.jpg",
+        "colours": "Grey, Blue"
+    },
+    {
+        "brand": "wote",
         "image": "wote_19.jpg",
-        "colours": "Pink, White, Blue"
+        "colours": "Grey, White, Blue"
     },
     {
         "brand": "wote",
@@ -3657,17 +3962,17 @@
     {
         "brand": "wote",
         "image": "wote_21.jpg",
-        "colours": "Yellow, Orange, Brown"
+        "colours": "Orange"
     },
     {
         "brand": "wote",
         "image": "wote_23.jpg",
-        "colours": "Yellow, Orange, Brown"
+        "colours": "Black, Red, Orange"
     },
     {
         "brand": "wote",
         "image": "wote_24.jpg",
-        "colours": "Orange"
+        "colours": "Red, Brown"
     },
     {
         "brand": "wote",
@@ -3677,7 +3982,7 @@
     {
         "brand": "wote",
         "image": "wote_26.jpg",
-        "colours": "Orange"
+        "colours": "Red, Brown, Orange"
     },
     {
         "brand": "wote",
@@ -3707,7 +4012,7 @@
     {
         "brand": "wote",
         "image": "wote_4.jpg",
-        "colours": "Green, Blue"
+        "colours": "Green, Grey"
     },
     {
         "brand": "wote",
@@ -3727,12 +4032,12 @@
     {
         "brand": "wote",
         "image": "wote_9.jpg",
-        "colours": "White, Blue"
+        "colours": "Blue"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_1.jpg",
-        "colours": "Orange, Brown"
+        "colours": "Orange, Red"
     },
     {
         "brand": "y'wande",
@@ -3742,12 +4047,12 @@
     {
         "brand": "y'wande",
         "image": "y'wande_11.jpg",
-        "colours": "Yellow, Orange"
+        "colours": "Yellow"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_12.jpg",
-        "colours": "Yellow"
+        "colours": "Yellow, Cream/Khaki/Beige"
     },
     {
         "brand": "y'wande",
@@ -3772,17 +4077,17 @@
     {
         "brand": "y'wande",
         "image": "y'wande_2.jpg",
-        "colours": "Cream/Khaki/Beige, White"
+        "colours": "Cream/Khaki/Beige"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_20.jpg",
-        "colours": "Red, Pink"
+        "colours": "Red, Orange"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_22.jpg",
-        "colours": "Red, White"
+        "colours": "White, Brown, Red"
     },
     {
         "brand": "y'wande",
@@ -3792,17 +4097,12 @@
     {
         "brand": "y'wande",
         "image": "y'wande_24.jpg",
-        "colours": "Grey, Cream/Khaki/Beige, White"
+        "colours": "White, Cream/Khaki/Beige"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_26.jpg",
-        "colours": "Red, Orange"
-    },
-    {
-        "brand": "y'wande",
-        "image": "y'wande_28.jpg",
-        "colours": "Pink"
+        "colours": "Red"
     },
     {
         "brand": "y'wande",
@@ -3817,27 +4117,17 @@
     {
         "brand": "y'wande",
         "image": "y'wande_31.jpg",
-        "colours": "Black, Grey"
+        "colours": "Black"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_32.jpg",
-        "colours": "Grey"
+        "colours": "Black"
     },
     {
         "brand": "y'wande",
         "image": "y'wande_33.jpg",
-        "colours": "Orange, Brown"
-    },
-    {
-        "brand": "y'wande",
-        "image": "y'wande_34.jpg",
-        "colours": "Red"
-    },
-    {
-        "brand": "y'wande",
-        "image": "y'wande_4.jpg",
-        "colours": "Cream/Khaki/Beige"
+        "colours": "Orange"
     },
     {
         "brand": "y'wande",

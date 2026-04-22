@@ -1,176 +1,190 @@
 {
     "summary": {
-        "Synthetic / Technical": 40.7,
-        "Textured Pile Weave": 39.6,
-        "Velvet / Crushed Pile": 18.2,
-        "Woven Natural Fibre": 1.2,
-        "Traditional Textile": 0.2
+        "Traditional Woven/Luto Cloth": 44.0,
+        "Structured Matte/Heavy": 28.7,
+        "Sleek/Technical Profile": 22.2,
+        "Artisanal/Textured Weave": 2.7,
+        "Tactile Loop/Textured Utility": 1.3,
+        "Coarse/Natural Fiber": 1.1
     },
     "brands": {
         "LAST_THREE": {
-            "Wool": 10,
-            "Chenille": 5
+            "Wool": 7,
+            "Lut": 8
         },
         "ADAMA_PARIS": {
-            "Acrylic": 14,
-            "Velvet": 1
+            "Acrylic": 15
         },
         "AJABENG": {
-            "Acrylic": 7,
-            "Velvet": 7
+            "Lut": 4,
+            "Velvet": 10
         },
         "AJANEE": {
             "Velvet": 3,
-            "Chenille": 15
+            "Lut": 15
         },
         "BABAYO": {
-            "Acrylic": 26,
-            "Velvet": 1
+            "Acrylic": 25,
+            "Velvet": 2
         },
         "BOYEDOE": {
-            "Velvet": 13,
-            "Chenille": 11
+            "Velvet": 16,
+            "Lut": 8
         },
         "CYNTHIA_ABILA": {
-            "Acrylic": 21,
-            "Velvet": 1
+            "Acrylic": 17,
+            "Lut": 2,
+            "Velvet": 3
         },
         "DESIREE_IYAMA": {
-            "Acrylic": 21,
-            "Velvet": 1
+            "Lut": 19,
+            "Velvet": 1,
+            "Acrylic": 2
         },
         "DIMEJI_ILORI": {
-            "Chenille": 19
+            "Velvet": 5,
+            "Terrycloth": 10,
+            "Lut": 4
         },
         "EKI_SILK": {
-            "Chenille": 12
+            "Lut": 11,
+            "Terrycloth": 1
         },
         "ELEXIAY": {
-            "Acrylic": 18
+            "Acrylic": 14,
+            "Velvet": 4
         },
         "EMMY_KASBIT": {
-            "Chenille": 25,
-            "Velvet": 7
+            "Chenille": 3,
+            "Lut": 6,
+            "Velvet": 23
         },
         "ESO_BY_LIMAN": {
-            "Acrylic": 17,
-            "Velvet": 3,
-            "Chenille": 5
+            "Acrylic": 11,
+            "Velvet": 14
         },
         "FOR_STYLE_SAKE": {
-            "Acrylic": 20,
-            "Velvet": 1
-        },
-        "FRUCHE": {
-            "Chenille": 11,
-            "Velvet": 18
-        },
-        "HAWA_PARIS": {
-            "Velvet": 24,
-            "africa_fabric": 1
-        },
-        "HERTUNBA": {
-            "Chenille": 24
-        },
-        "IBILOLA_OGUNDIPE": {
-            "Velvet": 8,
-            "Acrylic": 7
-        },
-        "IMAD_EDUSO": {
-            "Chenille": 22,
-            "Velvet": 1
-        },
-        "JZO": {
-            "Acrylic": 15
-        },
-        "LB_LUMINA": {
-            "Chenille": 8,
-            "Velvet": 6
-        },
-        "LFJ": {
-            "Chenille": 28,
+            "Lut": 20,
             "Acrylic": 1
         },
-        "LILA_BARE": {
-            "Velvet": 20,
+        "FRUCHE": {
+            "Lut": 7,
+            "Velvet": 22
+        },
+        "HAWA_PARIS": {
+            "Lut": 15,
+            "Velvet": 10
+        },
+        "HERTUNBA": {
+            "Lut": 24
+        },
+        "IBILOLA_OGUNDIPE": {
+            "Velvet": 12,
+            "Wool": 2,
+            "Lut": 1
+        },
+        "IMAD_EDUSO": {
+            "Velvet": 19,
+            "Lut": 3,
+            "Chenille": 1
+        },
+        "JZO": {
+            "Velvet": 7,
+            "Lut": 3,
+            "Acrylic": 5
+        },
+        "LB_LUMINA": {
+            "Velvet": 11,
+            "Lut": 3
+        },
+        "LFJ": {
+            "Lut": 23,
+            "Acrylic": 1,
             "Chenille": 5
         },
+        "LILA_BARE": {
+            "Velvet": 25
+        },
         "MAISON_ALULLA": {
-            "Velvet": 2,
-            "Acrylic": 21
+            "Velvet": 6,
+            "Acrylic": 16,
+            "Lut": 1
         },
         "MAXJENNY": {
             "Velvet": 1,
-            "Acrylic": 3
+            "Lut": 3
         },
         "MOT_THE_LABEL": {
-            "Acrylic": 16
+            "Acrylic": 13,
+            "Velvet": 2,
+            "Lut": 1
         },
         "NKWO": {
-            "Acrylic": 16,
-            "Chenille": 2
+            "Lut": 18
         },
         "NYA": {
-            "Chenille": 16,
-            "Velvet": 11
+            "Velvet": 27
         },
         "OLOOH": {
-            "Acrylic": 6,
-            "Chenille": 7
+            "Velvet": 6,
+            "Acrylic": 5,
+            "Lut": 2
         },
         "OSHOBOR": {
-            "Acrylic": 20,
-            "Chenille": 4,
+            "Lut": 21,
+            "Acrylic": 3,
             "Velvet": 1
         },
         "PEPPERROW": {
-            "Acrylic": 21,
-            "Chenille": 1
+            "Acrylic": 10,
+            "Lut": 10,
+            "Velvet": 2
         },
         "PETTRE_TAYLOR": {
-            "Acrylic": 26
+            "Acrylic": 25,
+            "Lut": 1
         },
         "RENDOLL": {
-            "Chenille": 16,
+            "Lut": 14,
+            "Chenille": 2,
             "Acrylic": 1,
             "Velvet": 1
         },
         "REVIVAL_LONDON": {
-            "Chenille": 10
+            "Chenille": 7,
+            "Velvet": 1,
+            "Lut": 2
         },
         "SAHRAZAD": {
             "Acrylic": 16
         },
         "SEVON_DEJANA": {
-            "Chenille": 12,
-            "Acrylic": 5
+            "Lut": 15,
+            "Velvet": 2
         },
         "STREET_SOUK": {
-            "Acrylic": 14
+            "Lut": 11,
+            "Acrylic": 3
         },
         "STUDIO_IMO": {
-            "Chenille": 18,
-            "Velvet": 4,
-            "Acrylic": 1
+            "Lut": 20,
+            "Chenille": 3
         },
         "THE_OR_FOUNDATION": {
-            "Velvet": 15,
-            "Chenille": 3,
-            "africa_fabric": 1,
-            "Acrylic": 1
+            "Lut": 20
         },
         "WOTE": {
-            "Chenille": 24,
-            "Acrylic": 1
+            "Lut": 24,
+            "Velvet": 1
         },
         "Y'WANDE": {
-            "Chenille": 24,
-            "Acrylic": 1
+            "Lut": 24,
+            "Chenille": 1
         }
     },
     "metadata": {
         "event": "Lagos Fashion Week 2025",
-        "accuracy": "93.35%",
+        "accuracy": "91.36%",
         "total_brands": 41
     }
 }
